@@ -64,10 +64,10 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Scientist
-          company: VISUS
+          company: Visualization Research Center (VISUS)
           company_url: 'https://www.visus.uni-stuttgart.de/'
           company_logo: org-gc
-          location: University of Stuttgart, Germany
+          location: Stuttgart, Germany
           date_start: '2018-02-01'
           date_end: ''
           description: |2-
@@ -95,7 +95,7 @@ sections:
               * Used Technology: ASP.NET, C#, HTML, Javascript, SQL Server 2012
         - title: Teaching Assistant
           company: Helwan University 
-          company_url: ''
+          company_url: 'https://www.helwan.edu.eg/'
           company_logo: org-x
           location: Helwan, Egypt
           date_start: '2011-09-01'
@@ -106,6 +106,20 @@ sections:
               * Tutoring
               * Developing and maintaining the learning management system (LMS) for the computer science faculty
               * Used Technology: PHP, MySQL
+        - title: Java Web Developer
+          company: Harf 
+          company_url: 'http://www.harf.com/'
+          company_logo: org-x
+          location: Cairo, Egypt
+          date_start: '2011-01-01'
+          date_end: '2012-03-30'
+          description: |2-
+              Develpoing and maintaining Tadarus learning management system (LMS). Responsibilities include:
+              
+              * Developing new features 
+              * Fixing bugs 
+              * Supporting the clients
+              * Used Technology: JAVA, Servlets and JSP, SQL Server 2005
         
     design:
       columns: '2'
