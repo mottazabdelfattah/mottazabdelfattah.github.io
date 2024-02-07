@@ -272,24 +272,40 @@ sections:
       text: |-
         <div class=row>
           <div class=col-md-5>
-              <div class=section-subheading>Interests</div>
+              <div class=section-subheading>Tutoring</div>
               <ul class="ul-interests fa-ul mb-0">
                   <li>
                       <i class="fa-li fa-solid fa-book-open"></i>
-                      Visualization</li>
+                      <div class=description>
+                        <p class=course>Information Visualization</p>
+                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                      </div>
+                    </li>
                   <li>
                       <i class="fa-li fa-solid fa-book-open"></i>
-                      Network Visualization</li>
+                      <div class=description>
+                        <p class=course>Scientific Visualization</p>
+                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                      </div>
+                  </li>
                   <li>
                       <i class="fa-li fa-solid fa-book-open"></i>
-                      Empirical User Evaluation</li>
+                      <div class=description>
+                        <p class=course>Theoretical Foundations of Visual Computing</p>
+                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                      </div>
+                  </li>
                   <li>
                       <i class="fa-li fa-solid fa-book-open"></i>
-                      Visualization Tools</li>
+                      <div class=description>
+                        <p class=course>Image Synthesis</p>
+                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                      </div>
+                  </li>
               </ul>
           </div>
           <div class=col-md-7>
-              <div class=section-subheading>Education</div>
+              <div class=section-subheading>Supervision</div>
               <ul class="ul-edu fa-ul mb-0">
                   <li>
                       <i class="fa-li fa-solid fa-graduation-cap"></i>
