@@ -310,11 +310,10 @@ sections:
                   <li>
                       <i class="fa-li fa-solid fa-graduation-cap"></i>
                       <div class=description>
-                          <p class=course>Marcel Galuschka</p>
-                          <p class=institution>Exploration support for performance maps. MS thesis. 2023.</p>
+                          <p class=course>Marcel Galuschka, MS thesis, 2023</p>
+                          <p class=institution>Exploration support for performance maps.</p>
                           <div class="btn-links">
                             <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://elib.uni-stuttgart.de/bitstream/11682/13043/1/Galuschka_Marcel.pdf" target="_blank" rel="noopener">PDF</a>
-                            <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/conference-paper/cite.bib">Cite</a>
                           </div>
                       </div>
                   </li>
