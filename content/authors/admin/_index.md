@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Moataz Abdelaal
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Moataz
+last_name: Abdelaal
 
 # Status emoji
 status:
@@ -17,34 +17,35 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Stuttgart
+    url: https://www.uni-stuttgart.de/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include network visualization, Visual Analytics, and Human-Computer Interaction.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Visualization
+  - Network Visualization
+  - Empirical User Evaluation
+  - Visualization Tools
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    # - course: PhD in Artificial Intelligence
+    #   institution: Stanford University
+    #   year: 2012
+    - course: MSc in Computer Science
+      institution: University of Stuttgart, Germany
+      year: 2017
+    - course: BSc in Software Engineering
+      institution: Helwan University, Egypt
+      year: 2010
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -94,18 +95,18 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=g-867ZoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/mottazabdelfattah
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -120,5 +121,6 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a research scientist at the Visualization Research Center (VISUS) at the University of Stuttgart, Germany. I began my PhD journey designing scalable techniques for visualizing dynamic networks and ended by building tools to help architects in shaping our future built world. Besides research, I enjoy working with students, especially the underachievers—challenging but rewarding. In the past, I developed web applications using Java Servlets and C# ASP.NET, primarily focusing on backend development. Nowadays, I spend more time with Vue.js and d3. When I'm not working, I enjoy traveling, hiking, watching movies, or playing sports. However, I must admit that catching up on some sleep has become my favorite hobby recently.
+
 {style="text-align: justify;"}
