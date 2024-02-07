@@ -265,12 +265,48 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  - block: about.biography
+  - block: markdown
     id: tutor
     content:
       title: Tutoring
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: tutor
+      text: |-
+        <div class=row>
+          <div class=col-md-5>
+              <div class=section-subheading>Interests</div>
+              <ul class="ul-interests fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa-solid fa-book-open"></i>
+                      Visualization</li>
+                  <li>
+                      <i class="fa-li fa-solid fa-book-open"></i>
+                      Network Visualization</li>
+                  <li>
+                      <i class="fa-li fa-solid fa-book-open"></i>
+                      Empirical User Evaluation</li>
+                  <li>
+                      <i class="fa-li fa-solid fa-book-open"></i>
+                      Visualization Tools</li>
+              </ul>
+          </div>
+          <div class=col-md-7>
+              <div class=section-subheading>Education</div>
+              <ul class="ul-edu fa-ul mb-0">
+                  <li>
+                      <i class="fa-li fa-solid fa-graduation-cap"></i>
+                      <div class=description>
+                          <p class=course>MSc in Computer Science, 2017</p>
+                          <p class=institution>University of Stuttgart, Germany</p>
+                      </div>
+                  </li>
+                  <li>
+                      <i class="fa-li fa-solid fa-graduation-cap"></i>
+                      <div class=description>
+                          <p class=course>BSc in Software Engineering, 2010</p>
+                          <p class=institution>Helwan University, Egypt</p>
+                      </div>
+                  </li>
+              </ul>
+          </div>
     design:
       columns: '2'
   - block: contact
