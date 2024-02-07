@@ -21,8 +21,8 @@ role: Research Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Stuttgart
-    url: https://www.uni-stuttgart.de/
+  - name: Visualization Research Center (VISUS)
+    url: https://www.visus.uni-stuttgart.de/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include network visualization, Visual Analytics, and Human-Computer Interaction.
