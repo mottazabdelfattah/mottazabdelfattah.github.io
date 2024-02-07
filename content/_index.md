@@ -268,12 +268,12 @@ sections:
   - block: markdown
     id: tutor
     content:
-      title: Tutoring
+      title: Tutoring and Supervision
       text: |-
         <div class=row>
-          <div class=col-md-5>
+          <div class=col-md-6>
               <div class=section-subheading>Tutoring</div>
-              <ul class="ul-interests fa-ul mb-0">
+              <ul class="ul-edu fa-ul mb-0">
                   <li>
                       <i class="fa-li fa-solid fa-book-open"></i>
                       <div class=description>
@@ -304,7 +304,7 @@ sections:
                   </li>
               </ul>
           </div>
-          <div class=col-md-7>
+          <div class=col-md-6>
               <div class=section-subheading>Supervision</div>
               <ul class="ul-edu fa-ul mb-0">
                   <li>
