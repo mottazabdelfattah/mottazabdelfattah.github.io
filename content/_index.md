@@ -239,7 +239,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: moataz.abdelaal@visus.uni-stuttgart.de
       phone: +49 711 685 88616
-      appointment_url: 'https://calendly.com'
+      #appointment_url: 'https://calendly.com'
       address:
         street: Allmandring 19
         city: Stuttgart
@@ -271,13 +271,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
