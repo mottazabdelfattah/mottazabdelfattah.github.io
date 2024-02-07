@@ -1,13 +1,13 @@
 ---
 # Interests to show in About widget
-interests:
+Courses:
   - Visualization
   - Network Visualization
   - Empirical User Evaluation
   - Visualization Tools
 
 # Education to show in About widget
-education:
+Supervision:
   courses:
     # - course: PhD in Artificial Intelligence
     #   institution: Stanford University
