@@ -310,8 +310,8 @@ sections:
                   <li>
                       <i class="fa-li fa-solid fa-graduation-cap"></i>
                       <div class=description>
-                          <p class=course>MSc in Computer Science, 2017</p>
-                          <p class=institution>University of Stuttgart, Germany</p>
+                          <p class=course>Marcel Galuschka, MSc, 2023</p>
+                          <p class=institution>Exploration support for performance maps</p>
                       </div>
                   </li>
                   <li>
