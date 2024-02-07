@@ -66,7 +66,7 @@ sections:
         - title: Research Scientist
           company: Visualization Research Center (VISUS)
           company_url: 'https://www.visus.uni-stuttgart.de/'
-          company_logo: org-gc
+          company_logo: org-visus
           location: Stuttgart, Germany
           date_start: '2018-02-01'
           date_end: ''
