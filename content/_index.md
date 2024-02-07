@@ -65,7 +65,7 @@ sections:
       items:
         - title: Research Scientist
           company: VISUS
-          company_url: ''
+          company_url: 'https://www.visus.uni-stuttgart.de/'
           company_logo: org-gc
           location: University of Stuttgart, Germany
           date_start: '2018-02-01'
@@ -81,7 +81,7 @@ sections:
               * Tutoring and thesis supervison
         - title: .Net Web Developer
           company: Storeserver
-          company_url: ''
+          company_url: 'https://www.storeserver.de/'
           company_logo: org-x
           location: Stuttgart, Germany
           date_start: '2017-03-01'
@@ -89,10 +89,23 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Optimizing the performance of a typical web-based E-commerce system
+              * Optimizing the performance of the company's web-based e-commerce system
               * Developing new features  
               * Fixing bugs
               * Used Technology: ASP.NET, C#, HTML, Javascript, SQL Server 2012
+        - title: Teaching Assistant
+          company: Helwan University 
+          company_url: ''
+          company_logo: org-x
+          location: Helwan, Egypt
+          date_start: '2011-09-01'
+          date_end: '2015-04-30'
+          description: |2-
+              Responsibilities include:
+              
+              * Tutoring
+              * Developing and maintaining the learning management system (LMS) for the computer science faculty
+              * Used Technology: PHP, MySQL
         
     design:
       columns: '2'
