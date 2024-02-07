@@ -109,7 +109,7 @@ sections:
         - title: Java Web Developer
           company: Harf 
           company_url: 'http://www.harf.com/'
-          company_logo: harf_logo
+          company_logo: org-x
           location: Cairo, Egypt
           date_start: '2011-01-01'
           date_end: '2012-03-30'
