@@ -56,34 +56,54 @@ sections:
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+      date_format: Feb 2018
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Research Scientist
+          company: VISUS
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: University of Stuttgart, Germany
+          date_start: '2018-02-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Reviewing the state-of-the-art
+              * Identifying research gaps
+              * Prototyping
+              * Evaluation
+              * Writing and presentation of the results
+              * Tutoring and thesis supervison
+        - title: .Net Web Developer
+          company: Storeserver
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Stuttgart, Germany
+          date_start: '2017-03'
+          date_end: '2017-09'
+          description: |2-
+              Responsibilities include:
+              * Optimizing the performance of a typical web-based E-commerce system
+              * Developing new features  
+              * Fixing bugs
+              * Used Technology: ASP.NET, C#, HTML, Javascript, SQL Server 2012
+        - title: Teaching Assistant
+          company: Helwan University 
+          company_url: ''
+          company_logo: org-x
+          location: Helwan, Egypt
+          date_start: '2011-09'
+          date_end: '2015-04'
+          description: |2-
+              Responsibilities include:
+              * Tutoring
+              * Developing and maintaining the learning management system (LMS) for the computer science faculty
+              * Used Technology: PHP, MySQL
     design:
       columns: '2'
   # - block: accomplishments
