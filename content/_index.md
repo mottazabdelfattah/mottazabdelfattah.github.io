@@ -71,12 +71,14 @@ sections:
           date_start: '2018-02-01'
           date_end: ''
           description: |2-
+              Conducting scientific research in the field of data visualization, particularly focusing on designing, developing, and evaluating techniques for network visualization and building interactive tools to support architects exploring the design space within the context of IntCDC clusters. 
               Responsibilities include:
 
               * Reviewing the state-of-the-art
-              * Identifying research gaps
-              * Prototyping
-              * Evaluation
+              * Identifying research gaps and formulating research questions
+              * Cocenptualization and desiging visualization solution
+              * Implementing and Prototyping
+              * Testing and Evaluation
               * Writing and presentation of the results
               * Tutoring and thesis supervison
         - title: .Net Web Developer
@@ -87,9 +89,9 @@ sections:
           date_start: '2017-03-01'
           date_end: '2017-09-30'
           description: |2-
-              Responsibilities include:
+              Optimizing the performance of the company's web-based e-commerce system. Responsibilities include:
 
-              * Optimizing the performance of the company's web-based e-commerce system
+              * Integrating multithreading functionality
               * Developing new features  
               * Fixing bugs
               * Used Technology: ASP.NET, C#, HTML, Javascript, SQL Server 2012
@@ -101,20 +103,18 @@ sections:
           date_start: '2011-09-01'
           date_end: '2015-04-30'
           description: |2-
-              Responsibilities include:
+              Tutoring as well as developing and maintaining the learning management system (LMS) for the computer science faculty.
               
-              * Tutoring
-              * Developing and maintaining the learning management system (LMS) for the computer science faculty
               * Used Technology: PHP, MySQL
         - title: Java Web Developer
           company: Harf 
           company_url: 'http://www.harf.com/'
-          company_logo: org-x
+          company_logo: harf_logo
           location: Cairo, Egypt
           date_start: '2011-01-01'
           date_end: '2012-03-30'
           description: |2-
-              Develpoing and maintaining Tadarus learning management system (LMS). Responsibilities include:
+              Develpoing and maintaining the company’s LMS (Tadarus). Responsibilities include:
               
               * Developing new features 
               * Fixing bugs 
