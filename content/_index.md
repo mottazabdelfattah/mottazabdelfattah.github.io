@@ -79,33 +79,7 @@ sections:
               * Evaluation
               * Writing and presentation of the results
               * Tutoring and thesis supervison
-        - title: .Net Web Developer
-          company: Storeserver
-          company_url: ''
-          company_logo: org-x
-          location: Stuttgart, Germany
-          date_start: '2017-03'
-          date_end: '2017-09'
-          description: |2-
-              Responsibilities include:
-
-              * Optimizing the performance of a typical web-based E-commerce system
-              * Developing new features  
-              * Fixing bugs
-              * Used Technology: ASP.NET, C#, HTML, Javascript, SQL Server 2012
-        - title: Teaching Assistant
-          company: Helwan University 
-          company_url: ''
-          company_logo: org-x
-          location: Helwan, Egypt
-          date_start: '2011-09'
-          date_end: '2015-04'
-          description: |2-
-              Responsibilities include:
-              
-              * Tutoring
-              * Developing and maintaining the learning management system (LMS) for the computer science faculty
-              * Used Technology: PHP, MySQL
+        
     design:
       columns: '2'
   # - block: accomplishments
