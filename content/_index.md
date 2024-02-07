@@ -79,6 +79,20 @@ sections:
               * Evaluation
               * Writing and presentation of the results
               * Tutoring and thesis supervison
+        - title: .Net Web Developer
+          company: Storeserver
+          company_url: ''
+          company_logo: org-x
+          location: Stuttgart, Germany
+          date_start: '2017-03-01'
+          date_end: '2017-09-30'
+          description: |2-
+              Responsibilities include:
+
+              * Optimizing the performance of a typical web-based E-commerce system
+              * Developing new features  
+              * Fixing bugs
+              * Used Technology: ASP.NET, C#, HTML, Javascript, SQL Server 2012
         
     design:
       columns: '2'
