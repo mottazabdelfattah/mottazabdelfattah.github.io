@@ -66,7 +66,7 @@ sections:
         - title: Research Scientist
           company: Visualization Research Center (VISUS)
           company_url: 'https://www.visus.uni-stuttgart.de/'
-          company_logo: org-visus
+          # company_logo: org-visus
           location: Stuttgart, Germany
           date_start: '2018-02-01'
           date_end: ''
@@ -84,7 +84,7 @@ sections:
         - title: .Net Web Developer
           company: Storeserver
           company_url: 'https://www.storeserver.de/'
-          company_logo: org-x
+          # company_logo: org-x
           location: Stuttgart, Germany
           date_start: '2017-03-01'
           date_end: '2017-09-30'
@@ -98,7 +98,7 @@ sections:
         - title: Teaching Assistant
           company: Helwan University 
           company_url: 'https://www.helwan.edu.eg/'
-          company_logo: org-x
+          # company_logo: org-x
           location: Helwan, Egypt
           date_start: '2011-09-01'
           date_end: '2015-04-30'
@@ -109,7 +109,7 @@ sections:
         - title: Java Web Developer
           company: Harf 
           company_url: 'http://www.harf.com/'
-          company_logo: org-x
+          # company_logo: org-x
           location: Cairo, Egypt
           date_start: '2011-01-01'
           date_end: '2012-03-30'
