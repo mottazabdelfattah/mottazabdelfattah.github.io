@@ -310,8 +310,8 @@ sections:
                   <li>
                       <i class="fa-li fa-solid fa-graduation-cap"></i>
                       <div class=description>
-                          <p class=course>Marcel Galuschka, MSc, 2023</p>
-                          <p class=institution>Thesis: Exploration support for performance maps</p>
+                          <p class=course>Marcel Galuschka</p>
+                          <p class=institution>Galuschka, Marcel. Exploration support for performance maps. MS thesis. 2023.</p>
                           <div class="btn-links">
                             <a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">PDF</a>
                             <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/conference-paper/cite.bib">Cite</a>
