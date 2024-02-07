@@ -22,6 +22,9 @@ main:
   - name: Publications
     url: '#featured'
     weight: 50
+  # - name: Teaching and Supervision
+  #   url: '#teaching'
+  #   weight: 55
   - name: Contact
     url: '#contact'
     weight: 60

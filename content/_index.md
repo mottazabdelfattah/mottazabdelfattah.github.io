@@ -71,14 +71,14 @@ sections:
           date_start: '2018-02-01'
           date_end: ''
           description: |2-
-              Conducting scientific research in the field of data visualization, particularly focusing on designing, developing, and evaluating techniques for network visualization and building interactive tools to support architects exploring the design space within the context of IntCDC clusters. 
+              Conducting scientific research in the field of data visualization, particularly focusing on designing, developing, and evaluating techniques for network visualization and building interactive tools to support architects exploring the design space within the context of cluster of excellence (IntCDC). 
               Responsibilities include:
 
               * Reviewing the state-of-the-art
               * Identifying research gaps and formulating research questions
               * Cocenptualization and desiging visualization solution
               * Implementing and Prototyping
-              * Testing and Evaluation
+              * Testing and evaluation
               * Writing and presentation of the results
               * Tutoring and thesis supervison
         - title: .Net Web Developer
@@ -103,9 +103,7 @@ sections:
           date_start: '2011-09-01'
           date_end: '2015-04-30'
           description: |2-
-              Tutoring as well as developing and maintaining the learning management system (LMS) for the computer science faculty.
-              
-              * Used Technology: PHP, MySQL
+              Tutoring as well as developing and maintaining the learning management system (LMS) for the computer science faculty. Used Technology: PHP, MySQL
         - title: Java Web Developer
           company: Harf 
           company_url: 'http://www.harf.com/'
@@ -267,6 +265,12 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
+  - block: about.biography
+    id: about
+    content:
+      title: Tutoring
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: tutor
   - block: contact
     id: contact
     content:
