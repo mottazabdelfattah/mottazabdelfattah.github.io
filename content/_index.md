@@ -88,6 +88,7 @@ sections:
           date_end: '2017-09'
           description: |2-
               Responsibilities include:
+
               * Optimizing the performance of a typical web-based E-commerce system
               * Developing new features  
               * Fixing bugs
@@ -101,6 +102,7 @@ sections:
           date_end: '2015-04'
           description: |2-
               Responsibilities include:
+              
               * Tutoring
               * Developing and maintaining the learning management system (LMS) for the computer science faculty
               * Used Technology: PHP, MySQL
