@@ -278,14 +278,14 @@ sections:
                       <i class="fa-li fa-solid fa-book-open"></i>
                       <div class=description>
                         <p class=course>Information Visualization</p>
-                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                        <p class=institution>WS 2018 - University of Stuttgart, Germnay</p>
                       </div>
                     </li>
                   <li>
                       <i class="fa-li fa-solid fa-book-open"></i>
                       <div class=description>
                         <p class=course>Scientific Visualization</p>
-                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                        <p class=institution>SS 2021 - University of Stuttgart, Germnay</p>
                       </div>
                   </li>
                   <li>
@@ -299,7 +299,14 @@ sections:
                       <i class="fa-li fa-solid fa-book-open"></i>
                       <div class=description>
                         <p class=course>Image Synthesis</p>
-                        <p class=institution>WS 20XX - University of Stuttgart, Germnay</p>
+                        <p class=institution>SS 2018 - University of Stuttgart, Germnay</p>
+                      </div>
+                  </li>
+                  <li>
+                      <i class="fa-li fa-solid fa-book-open"></i>
+                      <div class=description>
+                        <p class=course>Seminar on Visualization of Graphs and Networks</p>
+                        <p class=institution>SS 2019/SS 2022 - University of Stuttgart, Germnay</p>
                       </div>
                   </li>
               </ul>
@@ -313,7 +320,7 @@ sections:
                           <p class=course>Sebastian Grund, MS thesis, 2023</p>
                           <p class=institution>Visual Parameters Space Analysis for Architectural Design Space Exploration.</p>
                           <div class="btn-links">
-                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="uploads/grund_thesis.pdf" target="_blank" rel="noopener">PDF</a>
                           </div>
                       </div>
                   </li>
@@ -323,7 +330,7 @@ sections:
                           <p class=course>Anja Groß, MS thesis, 2023</p>
                           <p class=institution>Immersive Analyse von Dynamischen Netzwerken mit Multivariaten Daten.</p>
                           <div class="btn-links">
-                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="uploads/gross_thesis.pdf" target="_blank" rel="noopener">PDF</a>
                           </div>
                       </div>
                   </li>
