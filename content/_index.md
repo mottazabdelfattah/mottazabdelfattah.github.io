@@ -310,6 +310,26 @@ sections:
                   <li>
                       <i class="fa-li fa-solid fa-graduation-cap"></i>
                       <div class=description>
+                          <p class=course>Sebastian Grund, MS thesis, 2023</p>
+                          <p class=institution>Visual Parameters Space Analysis for Architectural Design Space Exploration.</p>
+                          <div class="btn-links">
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <i class="fa-li fa-solid fa-graduation-cap"></i>
+                      <div class=description>
+                          <p class=course>Anja Groß, MS thesis, 2023</p>
+                          <p class=institution>Immersive Analyse von Dynamischen Netzwerken mit Multivariaten Daten.</p>
+                          <div class="btn-links">
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <i class="fa-li fa-solid fa-graduation-cap"></i>
+                      <div class=description>
                           <p class=course>Marcel Galuschka, MS thesis, 2023</p>
                           <p class=institution>Exploration support for performance maps.</p>
                           <div class="btn-links">
@@ -320,8 +340,31 @@ sections:
                   <li>
                       <i class="fa-li fa-solid fa-graduation-cap"></i>
                       <div class=description>
-                          <p class=course>BSc in Software Engineering, 2010</p>
-                          <p class=institution>Helwan University, Egypt</p>
+                          <p class=course>Raman Sharma, MS thesis, 2021</p>
+                          <p class=institution>Evaluating Adjacency Matrix for Network Visualization.</p>
+                          <div class="btn-links">
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <i class="fa-li fa-solid fa-graduation-cap"></i>
+                      <div class=description>
+                          <p class=course>Nathan Schiele, MS thesis, 2020</p>
+                          <p class=institution>Evaluating Bipartite Graph Layout for Network Visualization.</p>
+                          <div class="btn-links">
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <i class="fa-li fa-solid fa-graduation-cap"></i>
+                      <div class=description>
+                          <p class=course>David Hägele, MS thesis, 2019</p>
+                          <p class=institution>Visualizing Optimization Trajectories.</p>
+                          <div class="btn-links">
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://elib.uni-stuttgart.de/bitstream/11682/10841/1/main-english-digital.pdf" target="_blank" rel="noopener">PDF</a>
+                          </div>
                       </div>
                   </li>
               </ul>
