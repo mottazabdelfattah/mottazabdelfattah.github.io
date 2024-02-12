@@ -343,7 +343,7 @@ sections:
                           <p class=course>Raman Sharma, MS thesis, 2021</p>
                           <p class=institution>Evaluating Adjacency Matrix for Network Visualization.</p>
                           <div class="btn-links">
-                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://elib.uni-stuttgart.de/bitstream/11682/11796/1/Raman_Sharma_Evaluating_Adjacency_Matrix_For_Network_Visuali.pdf" target="_blank" rel="noopener">PDF</a>
                           </div>
                       </div>
                   </li>
@@ -353,7 +353,7 @@ sections:
                           <p class=course>Nathan Schiele, MS thesis, 2020</p>
                           <p class=institution>Evaluating Bipartite Graph Layout for Network Visualization.</p>
                           <div class="btn-links">
-                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="" target="_blank" rel="noopener">PDF</a>
+                            <a class="btn btn-outline-primary btn-page-header btn-sm" href="uploads/schiele_thesis.pdf" target="_blank" rel="noopener">PDF</a>
                           </div>
                       </div>
                   </li>
