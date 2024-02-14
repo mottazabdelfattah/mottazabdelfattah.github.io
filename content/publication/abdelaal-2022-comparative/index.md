@@ -29,7 +29,7 @@ url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9908291
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'v-full-1541_Abdelaal_Presentation.pdf'
 url_source: ''
 url_video: ''
 
@@ -52,7 +52,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: abdelaal-2022-comparative
+#slides: abdelaal-2022-comparative
 ---
 
 {{% callout note %}}
