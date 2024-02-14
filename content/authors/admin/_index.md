@@ -2,12 +2,14 @@
 # Display name
 title: Moataz Abdelaal
 
-# Name pronunciation (optional)
-name_pronunciation: 'He/Him'
 
 # Full name (for SEO)
 first_name: Moataz
 last_name: Abdelaal
+
+# Name pronunciation (optional)
+name_pronunciation: 'He/Him'
+
 
 # Status emoji
 status:
@@ -50,6 +52,23 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
+  - name: Languages
+    items:
+      - name: Arabic
+        description: ''
+        percent: 100
+        icon: language
+        icon_pack: fab
+      - name: English
+        description: ''
+        percent: 90
+        icon: language
+        icon_pack: fas
+      - name: German
+        description: ''
+        percent: 80
+        icon: language
+        icon_pack: hero
   - name: Technical
     items:
       - name: Python
