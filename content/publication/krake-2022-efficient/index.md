@@ -12,4 +12,6 @@ publishDate: '2024-02-07T10:57:04.494743Z'
 publication_types:
 - article-journal
 publication: '*Journal of Theoretical, Computational and Applied Mechanics*'
+
+projects: ['intcdc_rp12']
 ---

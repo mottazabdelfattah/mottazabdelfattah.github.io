@@ -14,4 +14,6 @@ publishDate: '2024-02-07T10:57:04.524600Z'
 publication_types:
 - article-journal
 publication: '*Buildings*'
+
+projects: ['intcdc_rp12']
 ---

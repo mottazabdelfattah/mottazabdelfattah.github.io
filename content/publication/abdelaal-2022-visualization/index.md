@@ -18,4 +18,7 @@ publishDate: '2024-02-07T10:57:04.488619Z'
 publication_types:
 - article-journal
 publication: '*IEEE Computer Graphics and Applications*'
+
+
+projects: ['intcdc_rp12']
 ---

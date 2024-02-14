@@ -11,4 +11,7 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the 24th International Conference Information Visualisation
   (IV)*'
+
+
+projects: ['bp_network']
 ---
