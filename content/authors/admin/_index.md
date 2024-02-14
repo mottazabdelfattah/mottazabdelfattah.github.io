@@ -68,7 +68,7 @@ skills:
         description: ''
         percent: 80
         icon: language
-        icon_pack: hero
+        icon_pack: hb
   - name: Technical
     items:
       - name: Python
