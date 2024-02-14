@@ -59,12 +59,12 @@ skills:
       - name: Arabic
         description: ''
         percent: 100
-        icon: language
-        icon_pack: fas
+        icon: :egypt:
+        #icon_pack: fas
       - name: English
         description: ''
         percent: 85
-        icon: GB
+        icon: ☕️
         #icon_pack: fas
       - name: German
         description: ''
