@@ -59,17 +59,17 @@ skills:
       - name: Arabic
         description: ''
         percent: 100
-        icon: arabic
-        #icon_pack: fas
+        icon: language
+        icon_pack: fas
       - name: English
         description: ''
         percent: 85
-        icon: ☕️
-        #icon_pack: fas
+        icon: language
+        icon_pack: fas
       - name: German
         description: ''
         percent: 75
-        icon: DE
+        icon: language
         icon_pack: fas
   - name: Technical
     items:
