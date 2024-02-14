@@ -9,7 +9,7 @@ date: '2024-02-14T00:00:00Z'
 external_link: 'https://www.intcdc.uni-stuttgart.de/'
 
 image:
-  caption: 'Image credit: [**©ICD/ITKE University of Stuttgart**]'
+  caption: 'Image credit: [**Copyright © 2019 ICD/ITKE University of Stuttgart**]'
   focal_point: ""
   preview_only: false
 

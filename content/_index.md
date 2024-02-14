@@ -204,15 +204,15 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Network Visualization
-          tag: network
-        - name: Archiecture
-          tag: archiecture
-        - name: Other
-          tag: other
+      # buttons:
+      #   - name: All
+      #     tag: '*'
+      #   - name: Network Visualization
+      #     tag: network
+      #   - name: Archiecture
+      #     tag: archiecture
+      #   - name: Other
+      #     tag: other
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -262,11 +262,11 @@ sections:
   #   design:
   #     columns: '2'
   #     view: compact
-  # - block: tag_cloud
-  #   content:
-  #     title: Popular Topics
-  #   design:
-  #     columns: '2'
+  - block: tag_cloud
+    content:
+      title: Popular Topics
+    design:
+      columns: '2'
   - block: markdown
     id: tutor
     content:

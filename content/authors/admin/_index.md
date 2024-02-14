@@ -8,7 +8,7 @@ first_name: Moataz
 last_name: Abdelaal
 
 # Name pronunciation (optional)
-name_pronunciation: 'He/Him'
+name_pronunciation: ''
 
 
 # Status emoji
@@ -19,7 +19,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research Scientist
+role: Research Scientist (He/Him)
 
 # Organizations/Affiliations to show in About widget
 organizations:
