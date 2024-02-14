@@ -207,10 +207,12 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        # - name: Network Visualization
-        #   tag: Deep Learning
-        # - name: Archiecture
-        #   tag: Demo
+        - name: Network Visualization
+          tag: network
+        - name: Archiecture
+          tag: archiecture
+        - name: Other
+          tag: other
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
