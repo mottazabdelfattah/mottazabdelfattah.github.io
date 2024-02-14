@@ -64,12 +64,12 @@ skills:
       - name: English
         description: ''
         percent: 85
-        icon: language
-        icon_pack: fas
+        icon: GB
+        #icon_pack: fas
       - name: German
         description: ''
         percent: 75
-        icon: language
+        icon: DE
         icon_pack: fas
   - name: Technical
     items:

@@ -25,7 +25,7 @@ different approaches and facets of what scalability can mean in visualization li
 researchers without a scalability tradition, we provide a set of recommendations for how scalability can be presented in a clear and
 consistent way to improve fair comparison between visualization techniques and systems and foster reproducibility.'
 
-tags: [scalability, visualization, structured literature analysis, conceptual framework, other]
+tags: [scalability, visualization, structured literature analysis, conceptual framework]
 
 # links:
 # - name: ""
