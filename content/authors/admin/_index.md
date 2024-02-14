@@ -58,7 +58,7 @@ skills:
         description: ''
         percent: 100
         icon: language
-        icon_pack: fab
+        icon_pack: fas
       - name: English
         description: ''
         percent: 90
@@ -68,7 +68,7 @@ skills:
         description: ''
         percent: 80
         icon: language
-        icon_pack: hb
+        icon_pack: fas
   - name: Technical
     items:
       - name: Python
