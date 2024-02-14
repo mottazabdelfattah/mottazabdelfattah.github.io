@@ -53,6 +53,8 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Languages
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
       - name: Arabic
         description: ''
@@ -105,6 +107,8 @@ skills:
         percent: 80
         icon: camera-retro
         icon_pack: fas
+  design:
+    columns: '3'
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
