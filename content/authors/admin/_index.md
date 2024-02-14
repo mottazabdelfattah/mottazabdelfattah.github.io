@@ -107,8 +107,6 @@ skills:
         percent: 80
         icon: camera-retro
         icon_pack: fas
-  design:
-    columns: '3'
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
