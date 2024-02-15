@@ -12,7 +12,13 @@ image:
   caption: ''
   focal_point: ""
 
-technology:
-  icon: ☕️
+links:
+  - icon: twitter
+    icon_pack: fab
+    name: Follow
+  - icon: python
+    icon_pack: fab
+    name: Python
+
 ---
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 
