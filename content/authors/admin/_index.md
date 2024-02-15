@@ -89,7 +89,7 @@ skills:
         icon: database
         icon_pack: fas
   - name: Hobbies
-    color: '#eeac02'
+    color: '#8da0cb'
     color_border: '#f0bf23'
     items:
       - name: Hiking
