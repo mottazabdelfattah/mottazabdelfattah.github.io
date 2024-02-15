@@ -12,29 +12,24 @@ image:
   caption: ''
   focal_point: ""
 
-links:
-  - icon: code
-    icon_pack: fab
-    name: Html
-  - icon: java
-    icon_pack: fab
-    name: Java
-  - icon: javascript
-    icon_pack: fab
-    name: JS
+# links:
+#   - icon: html
+#     icon_pack: fab
+#     name: Html
+#   - icon: java
+#     icon_pack: fab
+#     name: Java
+#   - icon: javascript
+#     icon_pack: fab
+#     name: JS
     
 
 ---
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 
-<ul class=network-icon aria-hidden=true>
-    <li><a href=/#contact aria-label=envelope><i class="fas fa-envelope big-icon"></i></a>
-    </li>
-    <li><a href="https://scholar.google.com/citations?user=g-867ZoAAAAJ" target=_blank
-            rel=noopener aria-label=graduation-cap><i
-                class="fas fa-graduation-cap big-icon"></i></a></li>
-    <li><a href=https://github.com/mottazabdelfattah target=_blank rel=noopener
-            aria-label=github><i class="fab fa-github big-icon"></i></a></li>
-    <li><a href=https://www.linkedin.com/ target=_blank rel=noopener aria-label=linkedin><i
-                class="fab fa-linkedin big-icon"></i></a></li>
-    <li><a href=/uploads/resume.pdf aria-label=cv><i class="ai ai-cv big-icon"></i></a></li>
-</ul>
+<div class="btn-links mb-3">
+  <a class="btn btn-outline-primary btn-page-header" href= />
+  <i class="fab fa-code mr-1"></i>Html</a>
+          <a class="btn btn-outline-primary btn-page-header" href= /><i class="fab fa-java mr-1"></i>Java</a>
+          <a class="btn btn-outline-primary btn-page-header" href= /><i
+              class="fab fa-javascript mr-1"></i>JS</a>
+      </div>
