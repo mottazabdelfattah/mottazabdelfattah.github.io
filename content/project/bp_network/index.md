@@ -12,7 +12,7 @@ image:
   caption: ''
   focal_point: ""
 
-social:
+links:
   - icon: code
     icon_pack: fab
     name: Html
