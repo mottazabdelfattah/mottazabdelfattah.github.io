@@ -10,6 +10,6 @@ external_link: ''
 
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: ""
 ---
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 

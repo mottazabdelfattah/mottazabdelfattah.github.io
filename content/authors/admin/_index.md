@@ -90,7 +90,7 @@ skills:
         icon_pack: fas
   - name: Hobbies
     color: '#8da0cb'
-    color_border: '#f0bf23'
+    color_border: '#8da0cb'
     items:
       - name: Hiking
         description: ''
