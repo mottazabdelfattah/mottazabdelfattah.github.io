@@ -28,7 +28,7 @@ image:
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 
 
 Used Tech:
-{{< icon name="code" pack="fas" padding_left="2">}}HTML
-{{< icon name="js" pack="fab" padding_left="2">}}JS
-{{< icon name="java" pack="fab" padding_left="2">}}Java
-{{< icon name="r-project" pack="fab" padding_left="2">}}R
+HTML{{< icon name="code" pack="fas" padding_right="2">}}
+JS{{< icon name="js" pack="fab" padding_right="2">}}
+Java{{< icon name="java" pack="fab" padding_right="2">}}
+R{{< icon name="r-project" pack="fab" padding_right="2">}}
