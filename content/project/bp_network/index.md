@@ -1,6 +1,6 @@
 ---
 title: Bipartite Layout for Network Visualization
-summary: Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="code" pack="fas" >}}{{< icon name="code" pack="fas" >}}{{< icon name="code" pack="fas" >}}
+summary: Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="code" pack="fas" >}}HTML {{< icon name="js" pack="fab" >}}JS {{< icon name="java" pack="fab" >}}Java
 tags:
   - dynamic, network, visualization, bipartite, evaluation, technique
 date: "2016-04-27T00:00:00Z"
@@ -27,6 +27,7 @@ image:
 ---
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 
 
-{{< icon name="code" pack="fas" >}} HTML
-{{< icon name="js" pack="fab" >}} JS
-{{< icon name="java" pack="fab" >}} Java
+Used Tech:
+{{< icon name="code" pack="fas" >}}HTML
+{{< icon name="js" pack="fab" >}}JS
+{{< icon name="java" pack="fab" >}}Java
