@@ -1,6 +1,8 @@
 ---
 title: Bipartite Layout for Network Visualization
-summary: Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout.
+summary: Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. {{< icon name="terminal" pack="fas" >}} Terminal
+{{< icon name="python" pack="fab" >}} Python
+{{< icon name="r-project" pack="fab" >}} R
 tags:
   - dynamic, network, visualization, bipartite, evaluation, technique
 date: "2016-04-27T00:00:00Z"
@@ -27,4 +29,6 @@ image:
 ---
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 
 
-[Scroll down to a page section with heading *Hi*](#hi)
+{{< icon name="terminal" pack="fas" >}} Terminal
+{{< icon name="python" pack="fab" >}} Python
+{{< icon name="r-project" pack="fab" >}} R
