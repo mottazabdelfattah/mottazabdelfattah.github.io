@@ -22,7 +22,16 @@ image:
 #   - icon: javascript
 #     icon_pack: fab
 #     name: JS
-    
+ buttons:
+  - title: Read my latest paper on LLMs
+    icon: brands/arxiv
+    url: https://arxiv.org/abs/2304.01852
+  - title: Watch my new YouTube video to achieve 20x productivity
+    icon: brands/youtube
+    url: https://youtube.com
+  - title: Connect with me on LinkedIn
+    icon: brands/linkedin
+    url: https://linkedin.com
 
 ---
 Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout. 
