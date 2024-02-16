@@ -29,9 +29,8 @@ Developing and evaluating techniques for visualizing networks with a special foc
 
 Used technology:
 <div class="btn-links mb-3"><a class="btn btn-outline-primary btn-page-header" href= /><i
-                        class="fab fa-code mr-1"></i>Html</a>
-                    <a class="btn btn-outline-primary btn-page-header" href= /><i class="fab fa-java mr-1"></i>Java</a>
-                    <a class="btn btn-outline-primary btn-page-header" href= /><i
-                        class="fab fa-javascript mr-1"></i>JS</a>
-                </div>
+        class="fab fa-code mr-1"></i>Html</a>
+    <a class="btn btn-outline-primary btn-page-header" href= /><i class="fab fa-java mr-1"></i>Java</a>
+    <a class="btn btn-outline-primary btn-page-header" href= /><i
+        class="fab fa-javascript mr-1"></i>JS</a>
 </div>
