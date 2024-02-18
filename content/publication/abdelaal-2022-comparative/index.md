@@ -21,9 +21,9 @@ abstract: 'This work investigates and compares the performance of node-link diag
 tags: [Bipartite, network, visualization, evaluation]
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "Supplemetal Materials"
+  url: "https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3100"
 url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9908291
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: ''
