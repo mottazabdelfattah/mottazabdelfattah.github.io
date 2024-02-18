@@ -91,7 +91,7 @@ sections:
           description: |2-
               Develop novel techniques to facilitate the detection of patterns in both genealogies and geographies datasets. Used Technology: Vue.js, d3
               
-        - title: .Net Web Developer
+        - title: .Net Web Developer (Part-time)
           company: Storeserver
           company_url: 'https://www.storeserver.de/'
           # company_logo: org-x
