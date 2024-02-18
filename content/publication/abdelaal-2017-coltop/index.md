@@ -24,7 +24,7 @@ url_poster: ''
 url_project: ''
 url_slides: 'ColTop_Final.pdf'
 url_source: ''
-url_video: 'FFsplit-171106-212029.mp4'
+url_video: ''
 
 
 projects: ['bp_network']
