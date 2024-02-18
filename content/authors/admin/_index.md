@@ -142,6 +142,6 @@ social:
 highlight_name: true
 ---
 
-I am a research scientist at the Visualization Research Center (VISUS) at the University of Stuttgart, Germany. I began my PhD journey designing scalable techniques for visualizing dynamic networks and ended by building tools to help architects in shaping our future built world. Besides research, I enjoy working with students, especially the underachievers—challenging but rewarding. In the past, I developed web applications using Java Servlets and C# ASP.NET, primarily focusing on backend development. Nowadays, I spend more time with Vue.js and d3. When I'm not working, I enjoy traveling, hiking, watching movies, or playing sports. However, I must admit that catching up on some sleep has become my favorite hobby recently.
+I am a research scientist at the Visualization Research Center (VISUS) at the University of Stuttgart, Germany. I began my PhD journey designing scalable techniques for visualizing dynamic networks and ended by building tools to help architects in shaping our future built world. Besides research, I enjoy working with students, especially the underachievers—challenging but rewarding. In the past, I developed web applications using Java Servlets and C# ASP.NET, primarily focusing on backend development. When I'm not working, I enjoy traveling, hiking, watching movies, or playing sports. However, I must admit that catching up on some sleep has become my favorite hobby recently.
 
 {style="text-align: justify;"}
