@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        /* Center website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 10px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row > .column {
+            padding: 8px;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            display: none; /* Hide all elements by default */
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* The "show" class is added to the filtered elements */
+        .show {
+            display: block;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+
+        .container{
+            width:100%;
+            display:inline-block;
+
+        }
+
+        img {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            height: 250px;
+        }
+
+        /*img svg{*/
+        /*    height: 300px;*/
+        /*    object-fit: cover;*/
+        /*}*/
+    </style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1>Image Gallery</h1>
+    <h3>Supplementary Material for Time-Aligned Edge Plots for Dynamic Graph Visualization</h3>
+    <h4>(Contribution ID: 108)</h4>
+    <hr>
+
+
+
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div id ="row" class="row">
+
+        <!-- END GRID -->
+    </div>
+
+    <!-- END MAIN -->
+</div>
+
+<script>
+
+    var techniques = ['Time-Aligned Edge Plots (TEPs)','Massive Sequence Views (MSVs)','Interleaved Edge Splatting (IES)','Small Multiples (SMNL)','Graph Parameters'];
+    var imgNames = [
+
+
+        ['JHotDraw/JHotDraw_TEP.png', techniques[0]],
+        ['G1/G1_TEP.png', techniques[0]],
+        ['G2/G2_TEP.png', techniques[0]],
+        ['G3/G3_TEP.png', techniques[0]],
+        ['G4/G4_TEP.png', techniques[0]],
+        ['G5/G5_TEP.png', techniques[0]],
+        ['G6/G6_TEP.png', techniques[0]],
+
+
+        ['JHotDraw/JHotDraw_MSV.png', techniques[1]],
+        ['G1/G1_MSV.png', techniques[1]],
+        ['G2/G2_MSV.png', techniques[1]],
+        ['G3/G3_MSV.png', techniques[1]],
+        ['G4/G4_MSV.png', techniques[1]],
+        ['G5/G5_MSV.png', techniques[1]],
+        ['G6/G6_MSV.png', techniques[1]],
+
+
+        ['JHotDraw/JHotDraw_IES.png', techniques[2]],
+        ['G1/G1_IES.png', techniques[2]],
+        ['G2/G2_IES.png', techniques[2]],
+        ['G3/G3_IES.png', techniques[2]],
+        ['G4/G4_IES.png', techniques[2]],
+        ['G5/G5_IES.png', techniques[2]],
+        ['G6/G6_IES.png', techniques[2]],
+/*
+
+        ['JHotDraw/JHotDraw_SMNL.svg', techniques[3]],
+        ['G1/barabasi.dynamic.graph.deletion_k1_t100_alpha0.85_alphaZero0.01_alphaOne0.75.svg', techniques[3]],
+        ['G2/barabasi.dynamic.graph.deletion_k2_t100_alpha0.85_alphaZero0.01_alphaOne0.75.svg', techniques[3]],
+        ['G3/barabasi.dynamic.graph.deletion_k4_t100_alpha0.85_alphaZero0.01_alphaOne0.75.svg', techniques[3]],
+        ['G4/barabasi.dynamic.graph.deletion_k1_t100_alpha0.6_alphaZero0.35_alphaOne0.2.svg', techniques[3]],
+        ['G5/barabasi.dynamic.graph.deletion_k2_t100_alpha0.6_alphaZero0.35_alphaOne0.2.svg', techniques[3]],
+        ['G6/barabasi.dynamic.graph.deletion_k4_t100_alpha0.6_alphaZero0.35_alphaOne0.2.svg', techniques[3]],
+
+*/
+
+        ['JHotDraw/JHotDraw_params.txt', techniques[4]],
+        ['G1/barabasi.dynamic.graph.deletion_k1_t100_alpha0.85_alphaZero0.01_alphaOne0.75.txt', techniques[4]],
+        ['G2/barabasi.dynamic.graph.deletion_k2_t100_alpha0.85_alphaZero0.01_alphaOne0.75.txt', techniques[4]],
+        ['G3/barabasi.dynamic.graph.deletion_k4_t100_alpha0.85_alphaZero0.01_alphaOne0.75.txt', techniques[4]],
+        ['G4/barabasi.dynamic.graph.deletion_k1_t100_alpha0.6_alphaZero0.35_alphaOne0.2.txt', techniques[4]],
+        ['G5/barabasi.dynamic.graph.deletion_k2_t100_alpha0.6_alphaZero0.35_alphaOne0.2.txt', techniques[4]],
+        ['G6/barabasi.dynamic.graph.deletion_k4_t100_alpha0.6_alphaZero0.35_alphaOne0.2.txt', techniques[4]],
+
+        // ['Synthetic_Graph1/_1_default_0_750_200_0.01_15_0.8_0.9_255_inferno_cropped_2_15_2_0_0_1_1_false_4_false_false_false_1_1.png', techniques[0]],
+        // ['JHotDraw/_1_default_0_1077_200_0.01_1_0.95_0.8_255_inferno_cropped_2_1_2_0_0.08_0.75_1_false_15_false_true_true_1_1.png', techniques[0]],
+        //
+        // ['Synthetic_Graph1/_2_default_0_750_200_0.01_15_0.8_255_inferno_cropped_2_15_2_1_false_false_false_1.png', techniques[1]],
+        // ['JHotDraw/_2_default_0_1077_200_0.01_1_0.95_255_inferno_cropped_1_1_2_1_false_false_true_1.png', techniques[1]],
+        //
+        //
+        //
+        // ['Synthetic_Graph1/_3_default_0_950_15_255_inferno_cropped_2_15_2_1_false_false_false_1.png', techniques[2]],
+        // ['JHotDraw/_3_default_0_1277_1_255_inferno_cropped_1_1_2_1_false_false_true_1.png', techniques[2]],
+        //
+        // ['Synthetic_Graph1/barabasi.dynamic.graph.deletion_k1_t50_alpha0.9_alphaZero0.01_alphaOne0.8.svg', techniques[3]],
+    ];
+
+    // for (let i = 0; i < techniques.length; i++) {
+    //     let tech = techniques[i];
+    //     document.getElementById("myBtnContainer").innerHTML +="<button class=\"btn\" onclick=\"filterSelection('"+tech+"')\">"+tech+"</button>";
+    // }
+
+    for (let i = 0; i < imgNames.length; i++) {
+
+        let entry = imgNames[i];
+        let path = entry[0];
+        let tech = entry[1];
+        let datasetName =  path.split("/")[0];
+        let ext = path.split('.').pop();
+
+
+        let htmlStr = '';
+        let fullPath = "./img/"+path;
+        let btnId = datasetName+"_btn";
+        let btn = document.getElementById(btnId);
+        if(btn == null){
+            document.getElementById("myBtnContainer").innerHTML +="<button id=\""+btnId+"\" class=\"btn\" onclick=\"filterSelection('"+datasetName+"')\">"+datasetName+"</button>";
+        }
+
+        htmlStr+="<div class=\"column "+ datasetName+"\">" +
+            "<div class=\"content\">";
+
+        if(ext =='txt'){
+            htmlStr+=
+                "<object data=\""+fullPath+"\"></object>"
+        }else{
+            htmlStr+=
+                "<a target=\"_blank\" href=\""+fullPath+"\">" +
+                "<img src=\""+fullPath+"\" alt=\""+datasetName+"\" style=\"width:100%\">" +
+                "</a>"
+
+
+        }
+        htmlStr+=
+            "<h5>"+datasetName+"</h5>"+
+            "<h4>"+tech+"</h4>" +
+            "</div>" +
+            "</div>"
+        //htmlStr+="</div>";
+        let rowElement = document.getElementById("row");
+        rowElement.innerHTML += htmlStr;
+    }
+
+    filterSelection("all");
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+
+
+
+
+
+
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
+
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+
+
+    // function getImages(path){
+    //     let filenames = new Array();
+    //     $.ajax({
+    //         url: path,
+    //         type : "get",
+    //         async:false,
+    //         success: function(data){
+    //             let as = $(data).find("td > a");
+    //             $.each(as, function(index, value ) {
+    //                 if(index > 0){
+    //
+    //                     filenames.push($(this).attr("href"));
+    //
+    //                 }
+    //
+    //             });
+    //
+    //
+    //         }
+    //     });
+    //     return filenames;
+    // }
+
+
+</script>
+
+</body>
+</html>

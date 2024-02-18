@@ -1,0 +1,7 @@
+avgDensity: 1.32705
+totalNodes: 27
+timepoints: 100
+k: 1
+alpha: 0.6
+alpha0: 0.35
+alpha1: 0.2

@@ -1,0 +1,3 @@
+avgDensity: 0.91364
+totalNodes: 787
+timepoints: 1077

@@ -23,7 +23,7 @@ url_pdf: https://diglib.eg.org/bitstream/handle/10.2312/vmv20181262/127-134.pdf?
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: Clustering_for_Stacked_Edge_Splatting.pdf'
+url_slides: 'Clustering_slides.pdf'
 url_source: ''
 url_video: 'ice_video_20181008-210906.mp4'
 
