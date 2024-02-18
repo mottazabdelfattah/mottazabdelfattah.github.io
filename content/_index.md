@@ -64,7 +64,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Scientist
-          company: Visualization Research Center (VISUS)
+          company: Visualization Research Center (VISUS), University of Stuttgart
           company_url: 'https://www.visus.uni-stuttgart.de/'
           # company_logo: org-visus
           location: Stuttgart, Germany
@@ -82,15 +82,14 @@ sections:
               * Writing and presentation of the results
               * Tutoring and thesis supervison
         - title: Visiting Scholar
-          company: Visualization Design Lab (VDL)
+          company: Visualization Design Lab (VDL), University of Utah
           company_url: 'https://vdl.sci.utah.edu/'
           # company_logo: org-visus
           location: Utah, USA
           date_start: '2022-08-15'
           date_end: '2022-11-15'
           description: |2-
-              Develop novel techniques to facilitate the detection of patterns in both genealogies and geographies datasets
-              * Used Technology: Vue.js, d3
+              Develop novel techniques to facilitate the detection of patterns in both genealogies and geographies datasets. Used Technology: Vue.js, d3
               
         - title: .Net Web Developer
           company: Storeserver
