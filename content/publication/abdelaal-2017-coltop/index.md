@@ -22,9 +22,9 @@ url_pdf: https://ieeexplore.ieee.org/abstract/document/8114622
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'ColTop_Final.pdf'
 url_source: ''
-url_video: ''
+url_video: 'FFsplit-171106-212029.mp4'
 
 
 projects: ['bp_network']

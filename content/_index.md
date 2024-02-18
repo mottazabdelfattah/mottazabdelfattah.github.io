@@ -89,7 +89,7 @@ sections:
           date_start: '2022-08-15'
           date_end: '2022-11-15'
           description: |2-
-              Develop novel techniques to facilitate the detection of patterns in both genealogies and geographies datasets. Used Technology: Vue.js, d3
+              Developing novel techniques to facilitate the detection of patterns in both genealogies and geographies datasets. Used Technology: Vue.js, d3
               
         - title: .Net Web Developer (Part-time)
           company: Storeserver

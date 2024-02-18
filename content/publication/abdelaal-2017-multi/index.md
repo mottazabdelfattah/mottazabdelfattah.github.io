@@ -19,7 +19,7 @@ url_pdf: https://elib.uni-stuttgart.de/bitstream/11682/9577/1/Multi-Timescale%20
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'Multi-Time_Scale_Dynamic_Graph_Visualization.pdf'
 url_source: ''
 url_video: ''
 
