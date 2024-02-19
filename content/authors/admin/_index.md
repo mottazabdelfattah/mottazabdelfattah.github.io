@@ -8,7 +8,7 @@ first_name: Moataz
 last_name: Abdelaal
 
 # Name pronunciation (optional)
-name_pronunciation: 'ss'
+name_pronunciation: 'HTML{{< icon name="code" pack="fas" padding_right="2">}}'
 
 
 # Status emoji
