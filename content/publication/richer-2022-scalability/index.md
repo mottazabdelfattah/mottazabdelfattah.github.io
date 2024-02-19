@@ -27,14 +27,14 @@ consistent way to improve fair comparison between visualization techniques and s
 
 tags: [scalability, visualization, structured literature analysis, conceptual framework]
 
-# links:
-# - name: ""
-#   url: ""
+links:
+- name: "Supplementary Materials"
+  url: "https://osf.io/xrvu7/"
 url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10003102
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://www.aviz.fr/Research/ScalabilityInVis'
 url_slides: ''
 url_source: ''
 url_video: ''
