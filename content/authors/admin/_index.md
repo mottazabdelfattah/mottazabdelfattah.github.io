@@ -8,7 +8,7 @@ first_name: Moataz
 last_name: Abdelaal
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: 'ss'
 
 
 # Status emoji
