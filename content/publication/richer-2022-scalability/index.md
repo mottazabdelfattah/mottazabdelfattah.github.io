@@ -53,3 +53,8 @@ url_video: ''
 
 # projects: ['bp_network']
 ---
+Used Tech:
+HTML{{< icon name="code" pack="fas" padding_right="2">}}
+JS{{< icon name="js" pack="fab" padding_right="2">}}
+Java{{< icon name="java" pack="fab" padding_right="2">}}
+R{{< icon name="r-project" pack="fab" padding_right="2">}}
