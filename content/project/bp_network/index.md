@@ -30,47 +30,47 @@ In this project, we undertook the task of answering the question "What is a bipa
 
 <figure>
   <img src="nl_bp.png" style="width:70%"/>
-  <figcaption>Figure 1 - Bipartite Layout. To visualize single-mode networks, the graph vertices are replicated on both axes in the same order. The left axis denotes the source nodes, while the right one denotes the target nodes.</figcaption>
+  <figcaption>Figure 1: Bipartite Layout. To visualize single-mode networks, the graph vertices are replicated on both axes in the same order. The left axis denotes the source nodes, while the right one denotes the target nodes.</figcaption>
 </figure>
 
 
-The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al. [^1], where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques [^2,3] were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
+The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al. [^1], where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques [^2],[^3] were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
 
 <figure>
-  <img src="rect22785-3.png" style="width:100%;"/>
-  <figcaption>Figure 2 - What is a bipartite layout good for? especially in comparison with NL and AM</figcaption>
+  <img src="rect22785-3.png" style="width:100%"/>
+  <figcaption>Figure 2: What is a bipartite layout good for, especially in comparison with NL and AM?</figcaption>
 </figure>
 
 As seen in Figure 3, BP share some characteristics with both NL and AM. BP and AM both replicate the network nodes on two axes representing the source and target axes. However, the axes in AM are orthogonal to each other rather than parallel as in BP. Additionaly, both layouts relies on vertex ordering algorithms to reveal the network structural properties. This suggests that BP would have similar user performance (i.e., time and accuracy) to AM when it comes to tasks such as finding clusters in a network or solving network tasks that are based on node properties. On the other hand, both NL and BP use lines to depict the connectivity between the nodes. In networks with a lot of links, these lines are typically drawing on top of each other, conveying the notion of a dense network. This suggests that BP would have similar performance to NL when it comes to network density estimation tasks or tasks that are based on edge properties.
 
 <figure>
   <img src="nl_am_bp_without_tasks.png" style="width:100%"/>
-  <figcaption>Figure 3 - NL vs. AM vs. BP. A theoretical comparison across five different cirteria.</figcaption>
+  <figcaption>Figure 3: NL vs. AM vs. BP. A theoretical comparison across five different cirteria.</figcaption>
 </figure>
 
 
-The previous arguments might hold for small and sparse networks. However, in this project, we were interested in comparing the three layouts on large networks (i.e., 500 nodes) with varying densities. Figure 4 shows how the three layouts look under three density profiles (row-wise) and four different network topological features (column-wise). All networks are of size 500 nodes. Please refer to our paper for more details on how the density profiles were computed. Network size (i.e., number of nodes) is an important variable for evaluation. Most of the previous work (except for the work of Yoghourdjian et al., 2018) investigated small networks with fewer than 100 nodes. Therefore, it is worth investigating if the findings of previous work still hold on large networks, especially for AM. As the network grows in size, the number of pixels used to represent the network links shrinks (assuming a fixed screen size). This can be seen in the top two rows (low and mid-density profiles). The network density seems to be a crucial variable, especially for NL and BP. Due to the limited drawing space, BP is the least scalable among the three representations with respect to the network density. Hence, our decision to opt for large networks with three density profiles.
+The previous arguments might hold for small and sparse networks. However, in this project, we were interested in comparing the three layouts on large networks (i.e., 500 nodes) with varying densities. Figure 4 shows how the three layouts look under three density profiles (row-wise) and four different network topological features (column-wise). All networks are of size 500 nodes. Please refer to our paper for more details on how the density profiles were computed. Network size (i.e., number of nodes) is an important variable for evaluation. Most of the previous work [^4] investigated small networks with fewer than 100 nodes. Therefore, it is worth investigating if the findings of previous work still hold on large networks, especially for AM. As the network grows in size, the number of pixels used to represent the network links shrinks (assuming a fixed screen size). This can be seen in the top two rows (low and mid-density profiles). The network density seems to be a crucial variable, especially for NL and BP. Due to the limited drawing space, BP is the least scalable among the three representations with respect to the network density. Hence, our decision to opt for large networks with three density profiles.
 
 <figure>
   <img src="vis_table.png" style="width:100%"/>
-  <figcaption>Figure 4 - NL vs. AM vs. BP. How the three layouts look like under three desnity profiles (row-wise) and four different network toplogical features (column-wise). All networks are of size 500 nodes. </figcaption>
+  <figcaption>Figure 4: NL vs. AM vs. BP. How the three layouts look like under three desnity profiles (row-wise) and four different network toplogical features (column-wise). All networks are of size 500 nodes. </figcaption>
 </figure>
 
 The network size implicitly dictates the types of tasks to be performed. Most of the previous work targeted small networks; hence, the focus was often on assessing user performance with respect to detailed tasks, such as finding a path between two nodes or counting how many links a node has. In our work, however, since we target large networks, our focus shifted towards overview tasks, such as comparing the topological features of two networks (T1), counting how many clusters are in a network (T2), or comparing the density of two networks (T3). Nevertheless, we did consider two detailed tasks (T4 and T5) to assess which representation, AM or BP, is easier to map to NL and hence easier to understand. But we are not focusing on them here. Figure 5 shows the same figure we used before to compare the three layouts but now updated with the five tasks together with the hypotheses behind them. Please check out the paper if you want to know how we arrived at those hypotheses.
 <figure>
   <img src="nl_am_bp_with_tasks.png" style="width:100%"/>
-  <figcaption>Figure 5 - In contrast to previous work, which covers mostly topology-based tasks in small datasets, we focus on overview tasks. We consider three overview tasks on networks with 500 nodes: (T1) network class identification, (T2) cluster detection, and (T3) network density estimation, and two detailed tasks: (T4) node in-degree vs. out-degree and (T5) representation mapping, on networks with 50 and 20 nodes, respectively.</figcaption>
+  <figcaption>Figure 5: In contrast to previous work, which covers mostly topology-based tasks in small datasets, we focus on overview tasks. We consider three overview tasks on networks with 500 nodes: (T1) network class identification, (T2) cluster detection, and (T3) network density estimation, and two detailed tasks: (T4) node in-degree vs. out-degree and (T5) representation mapping, on networks with 50 and 20 nodes, respectively.</figcaption>
 </figure>
 
 To validate these hypotheses, we conducted a crowdsourced user study. We opted for a between-subject design with three conditions, one for each layout. We aimed for 50 participants per condition, making the total number of participants (N=150). We recruited the study participants through Amazon Mechanical Turk (mTurk). The participants were compensated, and the study was ethically approved by the university ethics committee. For more details about the study procedure, participants, and simulated data, please check out our paper.
 
 
 
-Figure 6 shows the overall results. When it comes to comparing network topological features (T1), BP did indeed behave similarly to AM, and both were significantly more accurate than NL. This was in line with our hypothesis, which was driven from Figure 4. As one can see, as the network density increases, NL converges into this "hair-ball" and therefore has a hard time maintaining the network topological features. While one might argue that this is a side effect of the force layout algorithm we used (d3-force), our experience [5] shows that other best-of-breed layout algorithms such as neato or sfdp produced similar visual results. In contrast, AM and BP rely on vertex ordering methods to reveal network structural properties, which appear to be scalable with respect to the density variable.
+Figure 6 shows the overall results. When it comes to comparing network topological features (T1), BP did indeed behave similarly to AM, and both were significantly more accurate than NL. This was in line with our hypothesis, which was driven from Figure 4. As one can see, as the network density increases, NL converges into this "hair-ball" and therefore has a hard time maintaining the network topological features. While one might argue that this is a side effect of the force layout algorithm we used (d3-force), our experience [^5] shows that other best-of-breed layout algorithms such as neato or sfdp produced similar visual results. In contrast, AM and BP rely on vertex ordering methods to reveal network structural properties, which appear to be scalable with respect to the density variable.
 
 <figure>
   <img src="overall_accuracy_t1_t3.png" style="width:100%"/>
-  <figcaption>Figure 6 - The overall accuracy of tasks T1 – T3. The shapes represent the means, and the error bars their 95% CIs.</figcaption>
+  <figcaption>Figure 6: The overall accuracy of tasks T1 – T3. The shapes represent the means, and the error bars their 95% CIs.</figcaption>
 </figure>
 
 
@@ -96,6 +96,9 @@ If you're still interested in reading more or curious about what the study parti
 [^1]: parallel edge splating
 [^2]: intelraving
 [^3]: stacking
+[^4]: Yoghourdjian et al. survey
+[^5]: our experience
+
 
 Used Tech:
 HTML{{< icon name="code" pack="fas" padding_right="2">}}
