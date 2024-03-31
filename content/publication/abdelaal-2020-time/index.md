@@ -29,5 +29,5 @@ url_slides: 'Time-Algined_Edge_Plots.pdf'
 url_source: ''
 url_video: 'TEP_video_annotated.mp4'
 
-projects: ['bp_network']
+projects: ['dynamic_network']
 ---

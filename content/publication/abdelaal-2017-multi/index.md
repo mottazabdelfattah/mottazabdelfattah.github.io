@@ -35,5 +35,5 @@ vertices (airports), several million edges (flight connections), and more than o
 
 
 
-projects: ['bp_network']
+projects: ['dynamic_network']
 ---

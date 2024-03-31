@@ -51,5 +51,5 @@ url_video: ''
 
 
 
-# projects: ['bp_network']
+projects: ['dynamic_network']
 ---

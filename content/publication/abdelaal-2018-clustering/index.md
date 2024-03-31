@@ -29,5 +29,5 @@ url_video: 'ice_video_20181008-210906.mp4'
 
 
 
-projects: ['bp_network']
+projects: ['dynamic_network']
 ---

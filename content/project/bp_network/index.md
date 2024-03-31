@@ -1,6 +1,6 @@
 ---
 title: Comparative Evaluation of Network Visualizations
-summary: Developing and evaluating techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="code" pack="fas" >}} {{< icon name="js" pack="fab" >}} {{< icon name="java" pack="fab" >}} {{< icon name="r-project" pack="fab" >}}
+summary: Evaluation of techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="code" pack="fas" >}} {{< icon name="js" pack="fab" >}} {{< icon name="java" pack="fab" >}} {{< icon name="r-project" pack="fab" >}}
 tags:
   - network, visualization, bipartite, evaluation, quantitative, user study 
 date: "2016-04-27T00:00:00Z"
