@@ -25,17 +25,23 @@ image:
     
 
 ---
-In this project, we undertook the task of answering the question "What is a bipartite layout good for?". Before we begin, we must distinguish between bipartite graphs and bipartite layouts. Bipartite graphs are a special kind of graph where the vertices are partitioned into two disjoint sets. These graphs are often found in biological and biochemical reaction networks. To visualize bipartite graphs, we use two parallel axes to denote the two sets of vertices and lines to visualize the connections between them. In this work, however, we are interested in the usage of bipartite layouts for visualizing single-mode networks (i.e., one set of vertices). In this case, we still have the two parallel axes, but the vertices are replicated on both axes with the same order (see Figure ??).
+In this project, we undertook the task of answering the question "What is a bipartite layout good for?". Before we begin, we must distinguish between bipartite graphs and bipartite layouts. Bipartite graphs are a special kind of graph where the vertices are partitioned into two disjoint sets. These graphs are often found in biological and biochemical reaction networks. To visualize bipartite graphs, we use two parallel axes to denote the two sets of vertices and lines to visualize the connections between them. In this work, however, we are interested in the usage of bipartite layouts for visualizing single-mode graphs (i.e., one set of vertices). In this case, we still have the two parallel axes, but the vertices are replicated on both axes with the same order (see Figure. 1).
 
 
 <figure>
-  <!-- <img src="nl_am_bp.png" alt="Trulli" style="width:100%"> -->
-  <img src="nl_am_bp_with_tasks.svg" style="width:100%"/>
-  <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+  <img src="nl_bp.svg" style="width:100%"/>
+  <figcaption>Figure. 1 - Bipartite Layout. To visualize single-mode networks, the graph vertices are replicated on both axes in the same order. The left axis denotes the source nodes, while the right one denotes the target nodes.</figcaption>
 </figure>
 
 
-The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al., where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure ??).
+The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al., where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
+
+<figure>
+  <img src="text24123.png" style="width:33%"/>
+  <img src="text26305.png" style="width:33%"/>
+  <img src="text26309.png" style="width:33%"/>
+  <figcaption>Figure. 2 - What is a bipartite layout good for? especially in comparison with NL and AM</figcaption>
+</figure>
 
 As seen in Figure ??, bipartite layouts (BP) share some characteristics with both (NL) and (AM). BP and AM both replicate the network nodes on two axes representing the source and target axes. However, the axes in AM are orthogonal to each other rather than parallel as in BP. Additionaly, both layouts relies on vertex ordering algorithms to reveal the network structural properties. This suggests that BP would have similar user performance (i.e., time and accuracy) to AM when it comes to tasks such as finding clusters in a network or solving network tasks that are based on node properties. On the other hand, both NL and BP use lines to depict the connectivity between the nodes. In networks with a lot of links, these lines are typically drawing on top of each other, conveying the notion of a dense network. This suggests that BP would have similar performance to NL when it comes to network density estimation tasks or tasks that are based on edge properties.
 
