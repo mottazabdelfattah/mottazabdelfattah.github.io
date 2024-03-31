@@ -87,7 +87,7 @@ When the task involves identifying network clusters or sub-communities, NL seems
 
 When the task at hand is about estimating overall density or detecting subtle changes in connectivity, BP does not seem to be a good choice due to the overdrawing problem. In such situations, AM provides the most accurate estimation of the true density within the network. That also implies that edge packing provides a more accurate representation of density than edge overdrawing.
 
-If you're still interested in reading more or curious about what the study participants said about each task, please check out the paper {{< cite page="/publication/abdelaal-2022-comparative" view="citation" >}}. There, you will also find a link to download all the supplemental materials, including source code, data files, and screenshots of the study.
+If you're still interested in reading more or curious about what the study participants said about each task, please check out the paper <cite page="/publication/abdelaal-2022-comparative" view="citation" >. There, you will also find a link to download all the supplemental materials, including source code, data files, and screenshots of the study.
 
 
 
