@@ -29,7 +29,7 @@ In this project, we undertook the task of answering the question "What is a bipa
 
 
 <figure>
-  <img src="nl_bp.png" style="width:100%"/>
+  <img src="nl_bp.png" style="width:70%"/>
   <figcaption>Figure 1 - Bipartite Layout. To visualize single-mode networks, the graph vertices are replicated on both axes in the same order. The left axis denotes the source nodes, while the right one denotes the target nodes.</figcaption>
 </figure>
 
@@ -37,9 +37,9 @@ In this project, we undertook the task of answering the question "What is a bipa
 The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al., where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
 
 <figure>
-  <img src="text928-4-2.png" style="width:33%"/>
-  <img src="text928-4.png" style="width:33%"/>
-  <img src="text928.png" style="width:33%"/>
+  <img src="text928-4-2.png" style="width:33%; float:left"/>
+  <img src="text928-4.png" style="width:33%; float:left"/>
+  <img src="text928.png" style="width:33%; float:left"/>
   <figcaption>Figure 2 - What is a bipartite layout good for? especially in comparison with NL and AM</figcaption>
 </figure>
 
