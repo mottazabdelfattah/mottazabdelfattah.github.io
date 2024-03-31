@@ -87,17 +87,17 @@ When the task involves identifying network clusters or sub-communities, NL seems
 
 When the task at hand is about estimating overall density or detecting subtle changes in connectivity, BP does not seem to be a good choice due to the overdrawing problem. In such situations, AM provides the most accurate estimation of the true density within the network. That also implies that edge packing provides a more accurate representation of density than edge overdrawing.
 
-If you're still interested in reading more or curious about what the study participants said about each task, please check out the paper <cite page="../../publication/abdelaal-2022-comparative" view="citation" >. There, you will also find a link to download all the supplemental materials, including source code, data files, and screenshots of the study.
+If you're still interested in reading more or curious about what the study participants said about each task, please check out the paper <cite page="/publication/abdelaal-2022-comparative" view="citation" />. There, you will also find a link to download all the supplemental materials, including source code, data files, and screenshots of the study.
 
 
 
 
 ----
-[^1]: parallel edge splating
-[^2]: intelraving
-[^3]: stacking
-[^4]: Yoghourdjian et al. survey
-[^5]: our experience
+[^1]: Burch, Michael, Corinna Vehlow, Fabian Beck, Stephan Diehl, and Daniel Weiskopf. "Parallel edge splatting for scalable dynamic graph visualization." IEEE Transactions on Visualization and Computer Graphics 17, no. 12 (2011): 2344-2353.
+[^2]: Burch, Michael, Marcel Hlawatsch, and Daniel Weiskopf. "Visualizing a sequence of a thousand graphs (or even more)." In Computer Graphics Forum, vol. 36, no. 3, pp. 261-271. 2017.
+[^3]: Beck, Fabian, Michael Burch, Corinna Vehlow, Stephan Diehl, and Daniel Weiskopf. "Rapid serial visual presentation in dynamic graph visualization." In 2012 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), pp. 185-192. IEEE, 2012.
+[^4]: Yoghourdjian, Vahan, Daniel Archambault, Stephan Diehl, Tim Dwyer, Karsten Klein, Helen C. Purchase, and Hsiang-Yun Wu. "Exploring the limits of complexity: A survey of empirical studies on graph visualisation." Visual Informatics 2, no. 4 (2018): 264-282.
+[^5]: M. Abdelaal, N. D. Schiele, K. Angerbauer, K. Kurzhals, M. Sedlmair, and D. Weiskopf. Supplemental materials for: Comparative evaluation of bipartite, node-link, and matrix-based network representations, 2022. doi: 10.18419/darus-3100
 
 
 Used Tech:
