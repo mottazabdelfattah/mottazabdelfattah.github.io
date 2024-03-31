@@ -30,7 +30,7 @@ In this project, we undertook the task of answering the question "What is a bipa
 
 <figure>
   <!-- <img src="nl_am_bp.png" alt="Trulli" style="width:100%"> -->
-  <embed src="comparison_with_tasks.pdf" style="width:100%"/>
+  <img src="nl_am_bp_with_tasks.svg" style="width:100%"/>
   <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
 </figure>
 
