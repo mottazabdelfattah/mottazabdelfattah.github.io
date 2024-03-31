@@ -34,12 +34,10 @@ In this project, we undertook the task of answering the question "What is a bipa
 </figure>
 
 
-The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al. [^1], where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
+The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al. [^1], where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques [^2,3] were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
 
 <figure>
-  <img src="rect22785-3.png" style="width:33%; float:left"/>
-  <img src="text928-4.png" style="width:33%; float:left"/>
-  <img src="text928.png" style="width:33%; float:left"/>
+  <img src="rect22785-3.png" style="width:100%;"/>
   <figcaption>Figure 2 - What is a bipartite layout good for? especially in comparison with NL and AM</figcaption>
 </figure>
 
@@ -93,9 +91,11 @@ If you're still interested in reading more or curious about what the study parti
 
 
 
-Refs:
+
 ----
-[^1]: Footnote example.
+[^1]: parallel edge splating
+[^2]: intelraving
+[^3]: stacking
 
 Used Tech:
 HTML{{< icon name="code" pack="fas" padding_right="2">}}
