@@ -62,16 +62,16 @@ The network size implicitly dictates the types of tasks to be performed. Most of
   <figcaption>Figure 5: In contrast to previous work, which covers mostly topology-based tasks in small datasets, we focus on overview tasks. We consider three overview tasks on networks with 500 nodes: (T1) network class identification, (T2) cluster detection, and (T3) network density estimation, and two detailed tasks: (T4) node in-degree vs. out-degree and (T5) representation mapping, on networks with 50 and 20 nodes, respectively.</figcaption>
 </figure>
 
-To validate these hypotheses, we conducted a crowdsourced user study. We opted for a between-subject design with three conditions, one for each layout. We aimed for 50 participants per condition, making the total number of participants (N=150). We recruited the study participants through Amazon Mechanical Turk (mTurk). The participants were compensated, and the study was ethically approved by the university ethics committee. For more details about the study procedure, participants, and simulated data, please check out our paper.
+To validate these hypotheses, we conducted a crowdsourced user study. We opted for a between-subject design with three conditions, one for each layout (see Figure 6). We aimed for 50 participants per condition, making the total number of participants (N=150). We recruited the study participants through Amazon Mechanical Turk (mTurk). The participants were compensated, and the study was ethically approved by the university ethics committee. For more details about the study procedure, participants, and simulated data, please check out our paper. 
 
-
-
-Figure 6 shows the overall results. When it comes to comparing network topological features (T1), BP did indeed behave similarly to AM, and both were significantly more accurate than NL. This was in line with our hypothesis, which was driven from Figure 4. As one can see, as the network density increases, NL converges into this "hair-ball" and therefore has a hard time maintaining the network topological features. While one might argue that this is a side effect of the force layout algorithm we used (d3-force), our experience [^5] shows that other best-of-breed layout algorithms such as neato or sfdp produced similar visual results. In contrast, AM and BP rely on vertex ordering methods to reveal network structural properties, which appear to be scalable with respect to the density variable.
 
 <figure>
-  <img src="overall_accuracy_t1_t3.png" style="width:100%"/>
-  <figcaption>Figure 6: The overall accuracy of tasks T1 – T3. The shapes represent the means, and the error bars their 95% CIs.</figcaption>
+  <img src="study_procedure2.png" style="width:100%"/>
+  <figcaption>Figure 6: Study Design. We opted for a between-subject study design with three conditions, one per layout. In total, we recruited 150 partipavts through Amazon Mechanical Turk (mTurk).</figcaption>
 </figure>
+
+
+Figure 7 shows the overall results. When it comes to comparing network topological features (T1), BP did indeed behave similarly to AM, and both were significantly more accurate than NL. This was in line with our hypothesis, which was driven from Figure 4. As one can see, as the network density increases, NL converges into this "hair-ball" and therefore has a hard time maintaining the network topological features. While one might argue that this is a side effect of the force layout algorithm we used (d3-force), our experience [^5] shows that other best-of-breed layout algorithms such as neato or sfdp produced similar visual results. In contrast, AM and BP rely on vertex ordering methods to reveal network structural properties, which appear to be scalable with respect to the density variable.
 
 
 When it comes to cluster detection (T2), we hypothesized that NL would outperform both AM and BP, especially on sparse networks. This is due to the fact that NL doubly encodes the cluster information through two variables: the proximity and the connectivity between the nodes. In contrast, AM and BP both rely only on the visibility of the links to encode such information, and since the links are less visible in AM than they are in BP, we hypothesized that BP would outperform AM. While the results agree on the NL part, they disagree on the comparison between AM and BP. Especially with low density (i.e., sparse) networks, participants had a hard time spotting the clusters, which was also reflected in their commentary feedback. One explanation could be that the overdrawing in BP might have impaired the recognition of clusters in BP compared to AM.
@@ -80,6 +80,10 @@ When it comes to cluster detection (T2), we hypothesized that NL would outperfor
 
 With respect to comparing the density of two networks (T3), both NL and AM are significantly more accurate than BP. The results suggest that BP has the least sensitivity to density changes. BP, and to a lesser degree NL, rely on edge overdrawing to convey the notion of density. In our study, we used the opacity variable to reduce visual clutter. As such, the denser the network, the lighter and smoother the lines will appear. For a non-trained eye, that might be misleading. In contrast, AM relies on what we call "edge packing" to convey the density, which changes the overall contrast of the image, making the comparison task more intuitive. The darker the image, the denser the network.
 
+<figure>
+  <img src="overall_accuracy_t1_t3.png" style="width:100%"/>
+  <figcaption>Figure 7: The overall accuracy of tasks T1 – T3. The shapes represent the means, and the error bars their 95% CIs.</figcaption>
+</figure>
 
 To summarize, for tasks that involve comparing the overall network structure, AM and BP might be better candidates than NL. Both representations are versatile enough to depict various structural properties and maintain these properties under varying densities. This also suggests that vertex-ordering-based techniques are effective at showing network structural properties under varying densities.
 
@@ -87,7 +91,7 @@ When the task involves identifying network clusters or sub-communities, NL seems
 
 When the task at hand is about estimating overall density or detecting subtle changes in connectivity, BP does not seem to be a good choice due to the overdrawing problem. In such situations, AM provides the most accurate estimation of the true density within the network. That also implies that edge packing provides a more accurate representation of density than edge overdrawing.
 
-If you're still interested in reading more or curious about what the study participants said about each task, please check out the paper <cite page="/publication/abdelaal-2022-comparative" view="citation" />. There, you will also find a link to download all the supplemental materials, including source code, data files, and screenshots of the study.
+If you're still interested in reading more or curious about what the study participants said about each task, please check out the <cite><a href="/publication/abdelaal-2022-comparative">paper</a></cite>. There, you will also find a link to download all the supplemental materials, including source code, data files, and screenshots of the study.
 
 
 
