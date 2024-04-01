@@ -1,6 +1,6 @@
 ---
 title: Visualization Techniques for Dynamic Networks 
-summary: Developing techniques for visualizing dynamic networks with a special focus on bipartite graph layout.<br/>{{< icon name="code" pack="fas" >}} {{< icon name="js" pack="fab" >}} {{< icon name="java" pack="fab" >}} {{< icon name="r-project" pack="fab" >}}
+summary: Developing techniques for visualizing dynamic networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}}: R, JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
 tags:
   - network, visualization, bipartite, dynamic, time, scalability
 date: "2016-04-27T00:00:00Z"
@@ -9,7 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ''
 
 image:
-  caption: 'The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horses legs while it is running at high speed. Image credit: [**Baronet by George Stubbs, 1794.**]'
+  caption: '<figcaption>Figure 2: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horses legs while it is running at high speed. Image credit: [**Baronet by George Stubbs, 1794.**]</figcaption>'
   focal_point: ""
 
 # links:
@@ -88,7 +88,7 @@ Since we talk about scalability a lot, we realized that sometimes in literature 
 [^6]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
 
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}
