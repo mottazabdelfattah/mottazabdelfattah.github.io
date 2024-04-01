@@ -58,15 +58,25 @@ In this project, we extended the state-of-the-art of dynamic network visualizati
 In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time">Time-aligned Edge Plots</a></cite> as an alternative way of drawing the BP layout over time. Instead of redrawing the edges at each time point, we only draw them once, through time. In this way, we exploit the line stroke style (i.e., dashed, dotted, solid, etc.) to convey the temporal patterns in the network. Sometimes we refer to this method as "striped BP" or "striping" for short. This method proves to be more scalable with respect to the network density.
 
 <figure>
-  <img src="G5_MSV_cropped.png" style="width:33%"/>
-  <img src="G5_IES_cropped.png" style="width:33%"/>
-  <img src="G5_TEP_cropped.png" style="width:33%"/>
-  <figcaption>Figure 5: Time-aligned Edge Plots (right) proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
+  <img src="G5_MSV_cropped.png" style="width:33%; float:left"/>
+  <img src="G5_IES_cropped.png" style="width:33%; float:left"/>
+  <img src="G5_TEP_cropped.png" style="width:33%;"/>
+  <p style="width:33%; float:left">Massive Sequence Views (MSV)</p>
+  <p style="width:33%; float:left">Interleaved Edge Splatting (IES)</p>
+  <p style="width:33%;">Time-aligned Edge Plots (TEP)</p>
+  <figcaption>Figure 5: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
 
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
 
+----
+[^1] seminal ghonaim
+[^2] node trix
+[^3] Fabian bech survery
+[^4] congurence
+[^5] parallel edge splatting
+[^6] interleaving
 
 Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}:
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
@@ -77,9 +87,3 @@ R{{< icon name="r-project" pack="fab" padding_right="2">}} -->
 JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
 
 
-[^1] seminal ghonaim
-[^2] node trix
-[^3] Fabian bech survery
-[^4] congurence
-[^5] parallel edge splatting
-[^6] interleaving
