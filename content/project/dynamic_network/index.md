@@ -68,12 +68,13 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
 
 
-
-Used Tech:
-HTML{{< icon name="code" pack="fas" padding_right="2">}}
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}:
+<!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}
 Java{{< icon name="java" pack="fab" padding_right="2">}}
-R{{< icon name="r-project" pack="fab" padding_right="2">}}
+R{{< icon name="r-project" pack="fab" padding_right="2">}} -->
+
+JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
 
 
 [^1] seminal ghonaim
