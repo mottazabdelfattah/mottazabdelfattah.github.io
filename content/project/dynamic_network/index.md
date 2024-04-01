@@ -9,7 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ''
 
 image:
-  caption: ''
+  caption: 'The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. Image credit [**Baronet by George Stubbs, 1794.**]'
   focal_point: ""
 
 # links:
@@ -80,12 +80,12 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
 
 ----
-[^1]: seminal ghonaim
-[^2]: node trix
-[^3]: Fabian bech survery
-[^4]: congurence
-[^5]: parallel edge splatting
-[^6]: interleaving
+[^1]: Ghoniem M, Fekete JD and Castagliola P. On the readability of graphs using node-link and matrix-based representations: A controlled experiment and statistical analysis. Information Visualization 2005; 4(2): 114–135.
+[^2]: Henry N, Fekete JD and McGuffin MJ. NodeTrix: A hybrid visualization of social networks. IEEE Transactions on Visualization and Computer Graphics 2007; 13(6): 1302–1309.
+[^3]: Beck F, Burch M, Diehl S et al. A taxonomy and survey of dynamic graph visualization. Computer Graphics Forum 2017; 36(1): 133–159.
+[^4]: versky B, Morrison JB and Betrancourt M. Animation: can it facilitate? International Journal of Human-Computer Studies 2002; 57(4): 247–262.
+[^5]: Burch M, Vehlow C, Beck F et al. Parallel edge splatting for scalable dynamic graph visualization. IEEE Transactions on Visualization and Computer Graphics 2011; 17(12): 2344–2353.
+[^6]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
 
 Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
