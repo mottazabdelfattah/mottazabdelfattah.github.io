@@ -34,7 +34,7 @@ In this project, we undertook the task of answering the question "What is a bipa
 </figure>
 
 
-The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al. [^1], where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques [^2,][^3] were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
+The use of bipartite layout (BP) to visualize single-mode networks was proposed by Burch et al. [^1], where they introduced the idea of using it for visualizing dynamic networks (i.e., networks that change over time). To encode the time dimension, the individual networks from different time points are juxtaposed next to each other in a small multiples fashion. Several subsequent techniques [^2,^3] were introduced aiming to increase the scalability of parallel edge splatting with respect to the number of time points. However, the main question "What is a bipartite layout good for?" remained unanswered, especially in comparison to other well-known layouts such as node-link diagrams (NL) or adjacent matrices (AM), which we attempted to tackle in this research (see Figure 2).
 
 <figure>
   <img src="rect22785-3.png" style="width:100%"/>
@@ -98,7 +98,7 @@ If you're still interested in reading more or curious about what the study parti
 
 ----
 [^1]: Burch, Michael, Corinna Vehlow, Fabian Beck, Stephan Diehl, and Daniel Weiskopf. "Parallel edge splatting for scalable dynamic graph visualization." IEEE Transactions on Visualization and Computer Graphics 17, no. 12 (2011): 2344-2353.
-[^2,]: Burch, Michael, Marcel Hlawatsch, and Daniel Weiskopf. "Visualizing a sequence of a thousand graphs (or even more)." In Computer Graphics Forum, vol. 36, no. 3, pp. 261-271. 2017.
+[^2]: Burch, Michael, Marcel Hlawatsch, and Daniel Weiskopf. "Visualizing a sequence of a thousand graphs (or even more)." In Computer Graphics Forum, vol. 36, no. 3, pp. 261-271. 2017.
 [^3]: Beck, Fabian, Michael Burch, Corinna Vehlow, Stephan Diehl, and Daniel Weiskopf. "Rapid serial visual presentation in dynamic graph visualization." In 2012 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), pp. 185-192. IEEE, 2012.
 [^4]: Yoghourdjian, Vahan, Daniel Archambault, Stephan Diehl, Tim Dwyer, Karsten Klein, Helen C. Purchase, and Hsiang-Yun Wu. "Exploring the limits of complexity: A survey of empirical studies on graph visualisation." Visual Informatics 2, no. 4 (2018): 264-282.
 [^5]: M. Abdelaal, N. D. Schiele, K. Angerbauer, K. Kurzhals, M. Sedlmair, and D. Weiskopf. Supplemental materials for: Comparative evaluation of bipartite, node-link, and matrix-based network representations, 2022. doi: 10.18419/darus-3100
