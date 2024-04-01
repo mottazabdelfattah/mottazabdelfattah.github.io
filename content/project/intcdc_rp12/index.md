@@ -6,7 +6,7 @@ tags:
 date: '2024-02-14T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://www.intcdc.uni-stuttgart.de/'
+external_link: ''
 
 image:
   caption: 'Image credit: [**Copyright © 2019 ICD/ITKE University of Stuttgart**]'
