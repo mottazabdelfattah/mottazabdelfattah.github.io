@@ -9,7 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ''
 
 image:
-  caption: 'The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. Image credit [**Baronet by George Stubbs, 1794.**]'
+  caption: 'The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horses legs while it is running at high speed. Image credit: [**Baronet by George Stubbs, 1794.**]'
   focal_point: ""
 
 # links:
