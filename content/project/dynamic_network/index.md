@@ -25,7 +25,6 @@ image:
     
 
 ---
-
 Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common techniques used to visualize networks (see Figure 1). NL is easy to understand and usually preferred [^1] when the task at hand is path-related. However, the technique doesn't scale well as the density of the network grows, resulting in the famous "hair-ball" effect. AM, in contrast, provides better scalability with network density, but it comes at the cost of understandability and the screen space consumed by the technique grows quadratically as the network grows in size. In literature, several techniques have been proposed attempting to combine both NL and AM in one hybrid approach [^2]. In the real world, networks are rarely static but rather evolving (i.e., dynamic networks). Having time as an additional dimension besides network size and density makes the visualization task even more challenging. A visualization technique not only needs to be scalable with respect to size and density but also with respect to time.
 
 <figure>
@@ -34,7 +33,7 @@ Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common t
 </figure>
 
 
-There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", the content and format of the graphic should correspond to the content and format of the concepts to be conveyed. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle."
+There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle."
 
 <figure>
   <img src="baronet-george-stubbs.jpg" style="width:100%"/>
@@ -42,7 +41,7 @@ There are two main schools for visualizing dynamic networks [^3]: those who advo
 </figure>
 
 
-In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). The layout was first proposed for dynamic network visualization by Burch et al.[^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving [^6] the BP for different time points. However, such a method resulted in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">our work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of interleaving them, which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
+In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. However, such a method resulted in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">our work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of interleaving them, which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
 
 <figure>
   <img src="parallel_edge_splatting.jpg" style="width:100%"/>
@@ -51,7 +50,13 @@ In this project, we extended the state-of-the-art of dynamic network visualizati
 
 <figure>
   <img src="flight_cluster1_interleaving.png" style="width:100%"/>
+  <p style="width:100%; display:inline-block; text-align:center">
+    <span style="font-size: small;">Interleaved Edge Splatting (IES)</span>
+  </p>
   <img src="flight_cluster1_our.png" style="width:100%"/>
+  <p style="width:100%; display:inline-block; text-align:center">
+    <span style="font-size: small;">Stacked Edge Splatting (SES)</span>
+  </p>
   <figcaption>Figure 4: Interleaved BP vs. Stacked BP. Stacking BP proves to be beneficial in revealing the network's temporal patterns.</figcaption>
 </figure>
 
@@ -61,10 +66,10 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <img src="G5_MSV_cropped.png" style="width:33%; float:left"/>
   <img src="G5_IES_cropped.png" style="width:33%; float:left"/>
   <img src="G5_TEP_cropped.png" style="width:33%;"/>
-  <p style="width:100%; float:left; text-align:center">
-    <span style="width:33%; float:left">(a)</span>
-    <span style="width:33%; float:left">(b)</span>
-    <span style="width:33%;">(c)</span>
+  <p style="width:100%; display:inline-block; text-align:center">
+    <span style="width:33%; float:left;font-size: small;">(a) Massive Sequence Views (MSV)</span>
+    <span style="width:33%; float:left;font-size: small;">(b) Interleaved Edge Splatting (IES)</span>
+    <span style="width:33%;;font-size: small;">(c) Time-aligned Edge Plots (TEP)</span>
   </p>
   
   
@@ -82,7 +87,8 @@ Since we talk about scalability a lot, we realized that sometimes in literature 
 [^5] parallel edge splatting
 [^6] interleaving
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
+
+<!-- Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas  -->
 
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}
