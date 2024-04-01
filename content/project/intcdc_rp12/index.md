@@ -1,5 +1,5 @@
 ---
-title: Cluster of Excellence Integrative Computational Design and Construction for Architecture (IntCDC) 
+title: Visualization Tools for Architects 
 summary: Shaping the future of architecture and the building industry through truly integrative computational design and construction.
 tags:
   - architecture, engineering, construction, future
@@ -30,3 +30,4 @@ image:
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+
