@@ -25,7 +25,7 @@ url_poster: ''
 url_project: ''
 url_slides: 'Clustering_slides.pdf'
 url_source: ''
-url_video: 'ice_video_20181008-210906.mp4'
+# url_video: 'ice_video_20181008-210906.mp4'
 
 
 

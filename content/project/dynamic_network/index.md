@@ -9,7 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ''
 
 image:
-  caption: ''
+  caption: 'Figure 2: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.'
   focal_point: ""
 
 # links:
@@ -35,10 +35,10 @@ Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common t
 
 There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle". The Galloping Horse problem is one example of how artists used to incorrectly draw the complex interaction of the horse's legs while it is running at high speed before stop-gap photography.
 
-<figure>
+<!-- <figure>
   <img src="baronet-george-stubbs.jpg" style="width:100%"/>
   <figcaption>Figure 2: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.</figcaption>
-</figure>
+</figure> -->
 
 
 In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. However, such a method resulted in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">our work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of interleaving them, which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
@@ -80,12 +80,12 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
 
 ----
-[^1] seminal ghonaim
-[^2] node trix
-[^3] Fabian bech survery
-[^4] congurence
-[^5] parallel edge splatting
-[^6] interleaving
+[^1]: seminal ghonaim
+[^2]: node trix
+[^3]: Fabian bech survery
+[^4]: congurence
+[^5]: parallel edge splatting
+[^6]: interleaving
 
 
 Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
