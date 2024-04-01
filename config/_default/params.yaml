@@ -45,7 +45,8 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Moataz Abdelaal. This work is licensed under {license}'
+    #notice: '© {year} Moataz Abdelaal. This work is licensed under {license}'
+    notice: '© {year} Moataz Abdelaal.'
     license:
       enable: false
       allow_derivatives: false
