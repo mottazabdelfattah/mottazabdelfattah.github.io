@@ -142,6 +142,7 @@ social:
 highlight_name: true
 ---
 
-I am a research scientist at the Visualization Research Center (VISUS) at the University of Stuttgart, Germany. I began my PhD journey designing scalable techniques for visualizing dynamic networks and ended by building tools to help architects in shaping our future built world. Besides research, I enjoy working with students, especially the underachievers—challenging but rewarding. In the past, I developed web applications using Java Servlets and C# ASP.NET, primarily focusing on backend development. When I'm not working, I enjoy traveling, hiking, watching movies, or playing sports. However, I must admit that catching up on some sleep has become my favorite hobby recently.
+Welcome to my website! My name is Moataz. I am a research scientist at the Visualization Research Center (VISUS) at the University of Stuttgart, Germany. Currently, I am working towards my PhD degree in data visualization. My research interests include designing scalable techniques for visualizing dynamic networks and building tools to help architects in shaping our future built world. In the past, I worked as a web developer using Java Servlets and C# ASP.NET, primarily focusing on backend development. When I'm not working, I enjoy traveling, hiking, watching movies, playing sports, or catching up on some sleep :) Here, you will find some information about me and my little research projects. I will try to keep things up to date!
+
 
 {style="text-align: justify;"}
