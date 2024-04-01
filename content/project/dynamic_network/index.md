@@ -33,11 +33,11 @@ Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common t
 </figure>
 
 
-There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle."
+There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle". The Galloping Horse problem is one example of how artists used to incorrectly draw the complex interaction of the horse's legs while it is running at high speed before stop-gap photography.
 
 <figure>
   <img src="baronet-george-stubbs.jpg" style="width:100%"/>
-  <figcaption>Figure 2: The Galloping Horse Problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.</figcaption>
+  <figcaption>Figure 2: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.</figcaption>
 </figure>
 
 
@@ -69,7 +69,7 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <p style="width:100%; display:inline-block; text-align:center">
     <span style="width:33%; float:left;font-size: small;">(a) Massive Sequence Views (MSV)</span>
     <span style="width:33%; float:left;font-size: small;">(b) Interleaved Edge Splatting (IES)</span>
-    <span style="width:33%;;font-size: small;">(c) Time-aligned Edge Plots (TEP)</span>
+    <span style="width:33%; float:left;font-size: small;">(c) Time-aligned Edge Plots (TEP)</span>
   </p>
   
   
@@ -88,7 +88,7 @@ Since we talk about scalability a lot, we realized that sometimes in literature 
 [^6] interleaving
 
 
-<!-- Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas  -->
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
 
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}
