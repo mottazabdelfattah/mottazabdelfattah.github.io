@@ -9,7 +9,7 @@ date: '2024-02-14T00:00:00Z'
 external_link: ''
 
 image:
-  caption: 'Image credit: [**Copyright © 2019 ICD/ITKE University of Stuttgart**]'
+  caption: '<figcaption>Figure 1: FiberVis tool to support the analysis and exploration of CFWS at different levels of details.</figcaption>'
   focal_point: ""
   preview_only: false
 
@@ -39,10 +39,10 @@ In <cite><a href="/publication/abdelaal-2022-visualization">our work</a></cite>,
 
 In that context, I participated in few projects focused on building and designing visualization tools for architects and designer. One of them is shown in Figure ?. The FiberVis tool was built to support architects in exploring the design space of Coreless Filament Wound Structures (CFW). To develop such a tool, we typically follow user-centered design methods, such as design studies [^3] and/or creativity workshops [^4], in order to elicit the requirements, design, build, and evaluate the tools. For more information please read <cite><a href="/publication/abdelaal-2022-visualization">our paper</a></cite>.
 
-<figure>
+<!-- <figure>
   <img src="Tool_MultiSelection.PNG" style="width:100%"/>
-  <figcaption>Figure 1: FiberVis tool to support the analysis and exploration of CFWS at different levels</figcaption>
-</figure>
+  <figcaption>Figure 1: FiberVis tool to support the analysis and exploration of CFWS at different levels of details.</figcaption>
+</figure> -->
 
 ----
 [^1]: United Nations, “Buildings and climate change: Summary for decision makers,” UNEP DTIE, Sustainable Consumption and Production Branch, Nairobi, Kenya, Tech. Rep. 987-92-807-3064-7, 2009
