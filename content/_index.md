@@ -399,8 +399,8 @@ sections:
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: |-
-        moataz.abdelaal@visus.uni-stuttgart.de
-        mottazabdelfattah@gmail.com
+        moataz.abdelaal@visus.uni-stuttgart.de;
+        mottazabdelfattah@gmail.com (personal)
       phone: +49 711 685 88616
       #appointment_url: 'https://calendly.com'
       address:
