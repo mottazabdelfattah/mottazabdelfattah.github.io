@@ -9,9 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ''
 
 image:
-  caption: '<figcaption>Figure 1: A multi-timescale view on a dynamic graph dataset acquired from the US domestic flight database consisting of several hundred
-vertices (airports), several million edges (flight connections), and more than one million time steps (from January 1st, 2000 to December
-31st, 2001). Three levels from top to bottom represent monthly, daily, and hourly patterns, respectively</figcaption>'
+  caption: '<figcaption>Figure 1: A multi-timescale dynamic graph visualization based on the US domestic flight dataset.</figcaption>'
   focal_point: ""
 
 # links:
@@ -48,8 +46,9 @@ There are two main schools for visualizing dynamic networks [^3]: those who advo
 
 
 
-In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). 
-One example is shown in Figure 1 where we visualize the US domestic flight dataset from January 1st, 2000 to December 31st, 2001 on three timescale. In this technique replies on the interleaving concept proposed by Burch et al.[^6]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In a<cite><a href="/publication/abdelaal-2018-clustering">later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving them", which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
+In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). One example is shown in Figure 1 where we visualize the US domestic flight dataset on three timescales: monthly, daily, and hourly (from top to bottom). The dataset consisting of several hundred vertices (airports), several million edges (flight connections), and more than one million time steps (from January 1st, 2000 to December 31st, 2001). 
+
+In this technique, we adopted the interleaving concept proposed by Burch et al.[^6]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">a later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving them", which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
 
 <!-- The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. 
 
@@ -84,7 +83,7 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <figcaption>Figure 5: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
-We build an interactive user interface using JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas. A teaser video can be found here:
+We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, D3.js, SVG, Canvas for the front-end. A demo video can be found here:
 <video width="320" height="240" controls>
   <source src="TEP_video_annotated.mp4" type="video/mp4">
 Your browser does not support the video tag.
