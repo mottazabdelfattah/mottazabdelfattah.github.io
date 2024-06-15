@@ -87,7 +87,6 @@ We build an interactive user interface using Java-Servlets in the backend and HT
 <video width="320" height="240" controls>
   <source src="TEP_video_annotated.mp4" type="video/mp4">
 Your browser does not support the video tag.
-<caption>A teaser video/caption>
 </video>
 
 
