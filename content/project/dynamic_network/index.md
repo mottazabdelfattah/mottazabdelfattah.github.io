@@ -87,7 +87,7 @@ We build an interactive user interface using Java-Servlets in the backend and HT
 
 
 
-Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
+<!-- Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>. -->
 
 <video width="320" height="240" controls>
   <source src="TEP_video_annotated.mp4" type="video/mp4">
