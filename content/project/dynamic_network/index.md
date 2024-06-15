@@ -48,7 +48,7 @@ There are two main schools for visualizing dynamic networks [^3]: those who advo
 
 In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). One example is shown in Figure 1 where we visualize the US domestic flight dataset on three timescales: monthly, daily, and hourly (from top to bottom). The dataset consisting of several hundred vertices (airports), several million edges (flight connections), and more than one million time steps (from January 1st, 2000 to December 31st, 2001). 
 
-In this technique, we adopted the interleaving concept proposed by Burch et al.[^1]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">a later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving them", which proves to be beneficial in revealing the network's temporal patterns (see Figure 2).
+In this technique, we adopted the interleaving concept proposed by Burch et al.[^1]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">a later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving" them, which proves to be beneficial in revealing the network's temporal patterns (see Figure 2).
 
 <!-- The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. 
 
@@ -83,10 +83,7 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <figcaption>Figure 3: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
-We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, and D3.js in the frontend. A demo video can be found here:
-<video width="320" height="240" controls>
-  <source src="TEP_video_annotated.mp4" type="video/mp4">
-</video>
+
 
 <!-- 
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>. -->
@@ -96,10 +93,17 @@ Since we talk about scalability a lot, we realized that sometimes in literature 
 [^3]: Beck F, Burch M, Diehl S et al. A taxonomy and survey of dynamic graph visualization. Computer Graphics Forum 2017; 36(1): 133–159.
 [^4]: versky B, Morrison JB and Betrancourt M. Animation: can it facilitate? International Journal of Human-Computer Studies 2002; 57(4): 247–262.
 [^5]: Burch M, Vehlow C, Beck F et al. Parallel edge splatting for scalable dynamic graph visualization. IEEE Transactions on Visualization and Computer Graphics 2011; 17(12): 2344–2353. -->
-----
+
 [^1]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
 
+
+We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, and D3.js in the frontend. A demo video can be found here:
+<video width="320" height="240" controls>
+  <source src="TEP_video_annotated.mp4" type="video/mp4">
+</video>
+
+----
 Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
 
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
