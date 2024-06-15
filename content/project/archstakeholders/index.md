@@ -1,6 +1,6 @@
 ---
 title: Timber Stakeholders Explorer 
-summary: An interactive web interface for exploring the stakeholders network of the timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3js, leaflet, Javascript, HTML, CSS
+summary: An interactive web interface for exploring the stakeholders network of the timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3.js, leaflet, Javascript, HTML, CSS
 tags:
   - architecture, engineering, construction, stakeholders, timber
 date: '2024-02-14T00:00:00Z'
@@ -58,4 +58,4 @@ This interface was used by our collaborators to answer qualitative questions abo
 
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: D3js, leaflet, Javascript, HTML, CSS
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: D3.js, leaflet, Javascript, HTML, CSS

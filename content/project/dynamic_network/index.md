@@ -1,6 +1,6 @@
 ---
 title: Visualization Techniques for Dynamic Networks 
-summary: Developing techniques for visualizing dynamic networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
+summary: Developing techniques for visualizing dynamic networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
 tags:
   - network, visualization, bipartite, dynamic, time, scalability
 date: "2016-04-27T00:00:00Z"
@@ -9,7 +9,9 @@ date: "2016-04-27T00:00:00Z"
 external_link: ''
 
 image:
-  caption: '<figcaption>Figure 1: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horses legs while it is running at high speed. Image credit: [**Baronet by George Stubbs, 1794.**]</figcaption>'
+  caption: '<figcaption>Figure 1: A multi-timescale view on a dynamic graph dataset acquired from the US domestic flight database consisting of several hundred
+vertices (airports), several million edges (flight connections), and more than one million time steps (from January 1st, 2000 to December
+31st, 2001). Three levels from top to bottom represent monthly, daily, and hourly patterns, respectively</figcaption>'
   focal_point: ""
 
 # links:
@@ -33,20 +35,25 @@ Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common t
 </figure>
 
 
-There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle". The Galloping Horse problem (see Figure 1) is one example of how artists used to incorrectly draw the complex interaction of the horse's legs while it is running at high speed before stop-gap photography.
+There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle". The Galloping Horse problem (see Figure 3) is one example of how artists used to incorrectly draw the complex interaction of the horse's legs while it is running at high speed before stop-gap photography.
 
-<!-- <figure>
-  <img src="baronet-george-stubbs.jpg" style="width:100%"/>
-  <figcaption>Figure 2: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.</figcaption>
-</figure> -->
 <figure>
+  <img src="baronet-george-stubbs.jpg" style="width:100%"/>
+  <figcaption>Figure 3: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.</figcaption>
+</figure>
+<!-- <figure>
   <img src="parallel_edge_splatting.jpg" style="width:100%"/>
   <figcaption>Figure 3: Parallel Edge Splatting BP layouts are juxtaposed next to each other to depict different network snapshots.</figcaption>
-</figure>
+</figure> -->
 
 
 
-In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. However, such a method resulted in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">our work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of interleaving them, which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
+In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). 
+One example is shown in Figure 1 where we visualize the US domestic flight dataset from January 1st, 2000 to December 31st, 2001 on three timescale. In this technique replies on the interleaving concept proposed by Burch et al.[^6]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In a<cite><a href="/publication/abdelaal-2018-clustering">later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving them", which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
+
+<!-- The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. 
+
+However, such a method resulted  -->
 
 
 <figure>
@@ -77,6 +84,13 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <figcaption>Figure 5: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
+We build an interactive user interface using JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas. A teaser video can be found here:
+<video width="320" height="240" controls>
+  <source src="TEP_video_annotated.mp4" type="video/mp4">
+Your browser does not support the video tag.
+<caption>A teaser video/caption>
+</video>
+
 
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
 
@@ -89,7 +103,7 @@ Since we talk about scalability a lot, we realized that sometimes in literature 
 [^6]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript (vanilla), D3.js, SVG, Canvas 
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
 
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}
