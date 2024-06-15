@@ -25,7 +25,7 @@ image:
     
 
 ---
-Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common techniques used to visualize networks (see Figure 2). NL is easy to understand and usually preferred [^1] when the task at hand is path-related. However, the technique doesn't scale well as the density of the network grows, resulting in the famous "hair-ball" effect. AM, in contrast, provides better scalability with network density, but it comes at the cost of understandability and the screen space consumed by the technique grows quadratically as the network grows in size. In literature, several techniques have been proposed attempting to combine both NL and AM in one hybrid approach [^2]. In the real world, networks are rarely static but rather evolving (i.e., dynamic networks). Having time as an additional dimension besides network size and density makes the visualization task even more challenging. A visualization technique not only needs to be scalable with respect to size and density but also with respect to time.
+<!-- Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common techniques used to visualize networks (see Figure 2). NL is easy to understand and usually preferred [^1] when the task at hand is path-related. However, the technique doesn't scale well as the density of the network grows, resulting in the famous "hair-ball" effect. AM, in contrast, provides better scalability with network density, but it comes at the cost of understandability and the screen space consumed by the technique grows quadratically as the network grows in size. In literature, several techniques have been proposed attempting to combine both NL and AM in one hybrid approach [^2]. In the real world, networks are rarely static but rather evolving (i.e., dynamic networks). Having time as an additional dimension besides network size and density makes the visualization task even more challenging. A visualization technique not only needs to be scalable with respect to size and density but also with respect to time.
 
 <figure>
   <img src="nl_am.png" style="width:70%"/>
@@ -33,22 +33,22 @@ Node-link diagrams (NL) and adjacency matrices (AM) are two of the most common t
 </figure>
 
 
-There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle". The Galloping Horse problem (see Figure 3) is one example of how artists used to incorrectly draw the complex interaction of the horse's legs while it is running at high speed before stop-gap photography.
+There are two main schools for visualizing dynamic networks [^3]: those who advocate for the use of animation, also referred to as "time-to-time mapping," and those who advocate for the use of the screen space, also referred to as "time-to-space mapping," to encode the time variable. In their seminal research, Tversky et al. [^4] made the case for the latter against the former. According to the "Congruence Principle", <em>the content and format of the graphic should correspond to the content and format of the concepts to be conveyed</em>. While animation might satisfy that principle, it is often too fast to be accurately apprehended and less effective than its static counterpart, and therefore, doesn't satisfy the "Apprehension Principle".  -->
+<!-- The Galloping Horse problem (see Figure 3) is one example of how artists used to incorrectly draw the complex interaction of the horse's legs while it is running at high speed before stop-gap photography. -->
 
-<figure>
+<!-- <figure>
   <img src="baronet-george-stubbs.jpg" style="width:100%"/>
   <figcaption>Figure 3: The Galloping Horse problem serves as a perfect illustration of the difficulty in grasping the complex interaction of the horse's legs while it is running at high speed. “Baronet” by George Stubbs, 1794.</figcaption>
-</figure>
+</figure> -->
 <!-- <figure>
   <img src="parallel_edge_splatting.jpg" style="width:100%"/>
   <figcaption>Figure 3: Parallel Edge Splatting BP layouts are juxtaposed next to each other to depict different network snapshots.</figcaption>
 </figure> -->
 
 
-
 In this project, we extended the state-of-the-art of dynamic network visualization by developing time-to-space mapping approaches based on Bipartite Layout (BP). One example is shown in Figure 1 where we visualize the US domestic flight dataset on three timescales: monthly, daily, and hourly (from top to bottom). The dataset consisting of several hundred vertices (airports), several million edges (flight connections), and more than one million time steps (from January 1st, 2000 to December 31st, 2001). 
 
-In this technique, we adopted the interleaving concept proposed by Burch et al.[^6]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">a later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving them", which proves to be beneficial in revealing the network's temporal patterns (see Figure 4).
+In this technique, we adopted the interleaving concept proposed by Burch et al.[^1]. While such method do improve the scalability with respect to time, it results in a significant amount of overdrawing, making it only suitable for sparse networks. In <cite><a href="/publication/abdelaal-2018-clustering">a later work</a></cite>, we attempted to tackle this issue by "stacking" the individual time points instead of "interleaving them", which proves to be beneficial in revealing the network's temporal patterns (see Figure 2).
 
 <!-- The layout was first proposed for dynamic network visualization by Burch et al. [^5], where the different network snapshots from different time points are juxtaposed next to each other in a small multiple fashion (see Figure 3). To improve the scalability of the technique with respect to time, they later proposed interleaving the BP for different time points [^6]. 
 
@@ -64,10 +64,10 @@ However, such a method resulted  -->
   <p style="width:100%; display:inline-block; text-align:center">
     <span style="font-size: small;">Stacked Edge Splatting (SES)</span>
   </p>
-  <figcaption>Figure 4: Interleaved BP vs. Stacked BP. Stacking BP proves to be beneficial in revealing the network's temporal patterns.</figcaption>
+  <figcaption>Figure 2: Interleaved BP vs. Stacked BP. Stacking BP proves to be beneficial in revealing the network's temporal patterns.</figcaption>
 </figure>
 
-In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time">Time-aligned Edge Plots</a></cite> as an alternative way of drawing the BP layout over time. Instead of redrawing the edges at each time point, we only draw them once, through time. In this way, we exploit the line stroke style (i.e., dashed, dotted, solid, etc.) to convey the temporal patterns in the network. Sometimes we refer to this method as "Striped BP" or "striping" for short. This method proves to be more scalable with respect to the network density (see Figure 5).
+In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time">Time-aligned Edge Plots</a></cite> as an alternative way of drawing the BP layout over time. Instead of redrawing the edges at each time point, we only draw them once, through time. In this way, we exploit the line stroke style (i.e., dashed, dotted, solid, etc.) to convey the temporal patterns in the network. Sometimes we refer to this method as "Striped BP" or "striping" for short. This method proves to be more scalable with respect to the network density (see Figure 3).
 
 <figure>
   <img src="G5_MSV_cropped.png" style="width:33%; float:left"/>
@@ -80,7 +80,7 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   </p>
   
   
-  <figcaption>Figure 5: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
+  <figcaption>Figure 3: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
 We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, D3.js, SVG, Canvas for the front-end. A demo video can be found here:
@@ -94,12 +94,12 @@ Your browser does not support the video tag.
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
 
 ----
-[^1]: Ghoniem M, Fekete JD and Castagliola P. On the readability of graphs using node-link and matrix-based representations: A controlled experiment and statistical analysis. Information Visualization 2005; 4(2): 114–135.
+<!-- [^1]: Ghoniem M, Fekete JD and Castagliola P. On the readability of graphs using node-link and matrix-based representations: A controlled experiment and statistical analysis. Information Visualization 2005; 4(2): 114–135.
 [^2]: Henry N, Fekete JD and McGuffin MJ. NodeTrix: A hybrid visualization of social networks. IEEE Transactions on Visualization and Computer Graphics 2007; 13(6): 1302–1309.
 [^3]: Beck F, Burch M, Diehl S et al. A taxonomy and survey of dynamic graph visualization. Computer Graphics Forum 2017; 36(1): 133–159.
 [^4]: versky B, Morrison JB and Betrancourt M. Animation: can it facilitate? International Journal of Human-Computer Studies 2002; 57(4): 247–262.
-[^5]: Burch M, Vehlow C, Beck F et al. Parallel edge splatting for scalable dynamic graph visualization. IEEE Transactions on Visualization and Computer Graphics 2011; 17(12): 2344–2353.
-[^6]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
+[^5]: Burch M, Vehlow C, Beck F et al. Parallel edge splatting for scalable dynamic graph visualization. IEEE Transactions on Visualization and Computer Graphics 2011; 17(12): 2344–2353. -->
+[^1]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
 
 Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
