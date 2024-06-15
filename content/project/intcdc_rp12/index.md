@@ -1,6 +1,6 @@
 ---
 title: Visualization Tools for Architects 
-summary: Shaping the future of architecture and the building industry through truly integrative computational design and construction.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} WPF, C#, Rhino/Grasshopper 
+summary: Shaping the future of architecture and the building industry through truly integrative computational design and construction.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper 
 tags:
   - architecture, engineering, construction, future
 date: '2024-02-14T00:00:00Z'
@@ -52,4 +52,4 @@ In that context, I took part in a few projects focused on building and designing
 
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: WPF, C#, Rhino/Grasshopper
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: C#, .NET, WPF, Rhino/Grasshopper

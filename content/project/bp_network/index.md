@@ -1,5 +1,5 @@
 ---
-title: Comparative Evaluation of Network Visualizations
+title: A Quantitative Evaluation of Network Visualizations
 summary: Evaluation of techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, HTML, JavaScript (vanilla), D3.js, jsPsych, PHP, MySQL
 tags:
   - network, visualization, bipartite, evaluation, quantitative, user study 
