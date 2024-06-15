@@ -41,7 +41,7 @@ This interactive interface was used by our collaborators to explore the optimiza
 <video width="320" height="240" controls>
   <source src="teaser.mp4" type="video/mp4">
 Your browser does not support the video tag.
-<caption>A teaser video/caption>
+<caption>A teaser video</caption>
 </video>
 
 

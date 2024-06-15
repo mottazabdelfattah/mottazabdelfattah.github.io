@@ -86,7 +86,6 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
 We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, D3.js, SVG, Canvas for the front-end. A demo video can be found here:
 <video width="320" height="240" controls>
   <source src="TEP_video_annotated.mp4" type="video/mp4">
-Your browser does not support the video tag.
 </video>
 
 
