@@ -36,7 +36,7 @@ In this project, we took on the task of visualizing the stakeholder network of t
 We provide two ways of visualizing the stakeholder network: either as a node-link diagram with different encoding options, as seen in Figures 1 and 2, or as a geographical map, as seen in Figure 3.
 
 <figure>
-  <img src="buildings-13-02287-g0A1-550.png" style="width:100%"/>
+  <img src="buildings-13-02287-g0A1-550.jpg" style="width:100%"/>
   <figcaption>Figure 2: Timber Stakeholders Explorer user interface. (a) Graph controls, including Graph Type, Graph Settings, Filtering, and empty Info Panel. (b) Info Panel showing example stakeholder information. (c) Info Panel showing example project information. (d) Stakeholder node with Ring Connectors. (e) Stakeholder node without Ring Connectors. (f) Stakeholder node with Label. (g) Stakeholder node without Label. (h) example Project cluster with Links. (i) example Project cluster without Links. (j) SCN without Contours. (k) SCN with Contours. (l) Stakeholders GeoMap without Color by Stakeholder Type. (m) Stakeholders GeoMap with Color by Stakeholder Type. (n) Stakeholder Encoding by Type. (o) Stakeholder Encoding by Country. (p) Stakeholder Encoding Both (Type and Country).</figcaption>
 </figure>
 
