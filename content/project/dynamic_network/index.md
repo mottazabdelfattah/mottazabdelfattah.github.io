@@ -83,7 +83,7 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <figcaption>Figure 3: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
-We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, D3.js, SVG, Canvas for the frontend. A demo video can be found here:
+We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, and D3.js in the frontend. A demo video can be found here:
 <video width="320" height="240" controls>
   <source src="TEP_video_annotated.mp4" type="video/mp4">
 </video>
