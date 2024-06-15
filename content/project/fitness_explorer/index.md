@@ -36,7 +36,7 @@ In architectural design optimization, fitness landscapes are used to visualize d
 
 As seen in Figure 1, our user interface offers two alternative representations for exploring fitness landscapes: a continuous density map and a discrete glyph-based map. Objective values and parameter views are updated based on the cursor position. The glyph-based map features a portal cursor for semantic zoom, displaying data in a separate portal lens view. 3D renderings of the underlying structure are displayed for selected parameter constellations. Furthermore, the exploration history shows which areas of the landscape have been investigated.
 
-A teaser video can be found here: <a href="teaser.mp4">here</a>. 
+A teaser video can be found <a href="teaser.mp4">here</a>. 
 
 This interactive interface was used by our collaborators to explore the optimization space of coreless filament wound structures. A publication will appear soon.
 
