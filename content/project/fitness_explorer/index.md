@@ -34,9 +34,9 @@ image:
 
 In architectural design optimization, fitness landscapes are used to visualize design space parameters in relation to one or more objective functions for which they are being optimized. 
 
-In this project, we designed and built an interactive user interface for exploring fitness landscapes (see Figure 1). Our interface offers two alternative representations for exploring fitness landscapes: a continuous density map and a discrete glyph-based map. Objective values and parameter views are updated based on the cursor position. The glyph-based map features a portal cursor for semantic zoom, displaying data in a separate portal lens view. 3D renderings of the underlying structure are displayed for selected parameter constellations. Furthermore, the exploration history shows which areas of the landscape have been investigated.
+In this project, we designed and built an interactive user interface for exploring fitness landscapes. Our interface offers two alternative representations for exploring fitness landscapes: a continuous density map and a discrete glyph-based map. Objective values and parameter views are updated based on the cursor position. The glyph-based map features a portal cursor for semantic zoom, displaying data in a separate portal lens view. 3D renderings of the underlying structure are displayed for selected parameter constellations. Furthermore, the exploration history shows which areas of the landscape have been investigated (see Figure 1).
 
-This interactive interface was used by our collaborators to explore the optimization space of coreless filament wound structures. A publication will appear soon.
+This interactive interface was used by our collaborators to explore the optimization space of coreless filament wound structures. <i>A publication will appear soon.</i>
 
 <video width="320" height="240" controls>
   <source src="teaser.mp4" type="video/mp4">
