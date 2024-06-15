@@ -1,6 +1,6 @@
 ---
-title: Multi-Storey Timber Design and Construction Stakeholders 
-summary: A web application prototype for exploring the stakeholder network of the multi-storey timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3js, leaflet, Javascript, HTML, CSS
+title: Timber Stakeholders Explorer 
+summary: An interactive web interface for exploring the stakeholder network of the multi-storey timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3js, leaflet, Javascript, HTML, CSS
 tags:
   - architecture, engineering, construction, stakeholders, timber
 date: '2024-02-14T00:00:00Z'
