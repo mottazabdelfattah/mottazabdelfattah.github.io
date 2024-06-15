@@ -91,12 +91,12 @@ We build an interactive user interface using Java-Servlets in the backend and HT
 <!-- 
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>. -->
 
-----
 <!-- [^1]: Ghoniem M, Fekete JD and Castagliola P. On the readability of graphs using node-link and matrix-based representations: A controlled experiment and statistical analysis. Information Visualization 2005; 4(2): 114–135.
 [^2]: Henry N, Fekete JD and McGuffin MJ. NodeTrix: A hybrid visualization of social networks. IEEE Transactions on Visualization and Computer Graphics 2007; 13(6): 1302–1309.
 [^3]: Beck F, Burch M, Diehl S et al. A taxonomy and survey of dynamic graph visualization. Computer Graphics Forum 2017; 36(1): 133–159.
 [^4]: versky B, Morrison JB and Betrancourt M. Animation: can it facilitate? International Journal of Human-Computer Studies 2002; 57(4): 247–262.
 [^5]: Burch M, Vehlow C, Beck F et al. Parallel edge splatting for scalable dynamic graph visualization. IEEE Transactions on Visualization and Computer Graphics 2011; 17(12): 2344–2353. -->
+----
 [^1]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
 
