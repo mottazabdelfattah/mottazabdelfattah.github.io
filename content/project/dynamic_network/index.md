@@ -83,10 +83,8 @@ In later work, we introduced the <cite><a href="/publication/abdelaal-2020-time"
   <figcaption>Figure 3: Time-aligned Edge Plots proves to be more scalable than current state-of-the-art with respect to the network density.</figcaption>
 </figure>
 
-We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, D3.js, SVG, Canvas for the front-end. A demo video can be found here:
-<video width="320" height="240" controls>
-  <source src="TEP_video_annotated.mp4" type="video/mp4">
-</video>
+We build an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, D3.js, SVG, Canvas for the frontend. A demo video can be found here:
+
 
 
 Since we talk about scalability a lot, we realized that sometimes in literature the term is used to refer to different things. So we undertook the job of revisiting the current visualization literature to try to clarify what people mean when they talk about scalability. <cite><a href="/publication/richer-2022-scalability">Read more</a></cite>.
@@ -99,6 +97,10 @@ Since we talk about scalability a lot, we realized that sometimes in literature 
 [^5]: Burch M, Vehlow C, Beck F et al. Parallel edge splatting for scalable dynamic graph visualization. IEEE Transactions on Visualization and Computer Graphics 2011; 17(12): 2344–2353. -->
 [^1]: Burch M, Hlawatsch M and Weiskopf D. Visualizing a sequence of a thousand graphs (or even more). Computer Graphics Forum 2017; 36(3): 261–271.
 
+
+<video width="320" height="240" controls>
+  <source src="TEP_video_annotated.mp4" type="video/mp4">
+</video>
 
 Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
 
