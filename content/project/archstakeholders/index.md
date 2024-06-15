@@ -1,6 +1,6 @@
 ---
 title: Timber Stakeholders Explorer 
-summary: An interactive web interface for exploring the stakeholder network of the multi-storey timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3js, leaflet, Javascript, HTML, CSS
+summary: An interactive web interface for exploring the stakeholders network of the timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3js, leaflet, Javascript, HTML, CSS
 tags:
   - architecture, engineering, construction, stakeholders, timber
 date: '2024-02-14T00:00:00Z'
@@ -31,9 +31,11 @@ image:
 #slides: example
 ---
 
-In this project, we took on the task of visualizing the stakeholder network of the multi-storey timber design and construction sector. This visualization prototype was used by our collaborators to answer qualitative questions about the connection between architectural variety in timber construction and the stakeholders involved.
+In this project, we took on the task of designing and building an interactive web interface to explore and analyze the stakeholder network of the multi-storey timber design and construction sector. We provide two interactive ways of visualizing the stakeholders network: either as a node-link diagram with different encoding options, as seen in Figures 1 and 2, or as an interactive geographical map, as seen in Figure 3. A live prototype can be found <a href="https://archstakeholders.github.io/">here</a>. 
 
-We provide two interactive ways of visualizing the stakeholder network: either as a node-link diagram with different encoding options, as seen in Figures 1 and 2, or as an interactive geographical map, as seen in Figure 3.
+This interface was used by our collaborators to answer qualitative questions about the connection between architectural variety in timber construction and the stakeholders involved. Please read <cite><a href="/publication/orozco-2023-advanced">our paper</a></cite> for mere details.
+
+
 
 <figure>
   <img src="buildings-13-02287-g0A1-550.jpg" style="width:100%"/>
@@ -47,7 +49,7 @@ We provide two interactive ways of visualizing the stakeholder network: either a
 </figure>
 
 
-A live prototype can be found <a href="https://archstakeholders.github.io/">here</a>. Please read <cite><a href="/publication/orozco-2023-advanced">our paper</a></cite> for mere details.
+
 
 
 
