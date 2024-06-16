@@ -1,5 +1,5 @@
 ---
-title: Exploring the Design Space of Fiber Structures 
+title: FiberVis Tool 
 summary: An interactive user interface for exploring the simulation results of coreless filament wound structures.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper, <a href="https://www.scichart.com/">SciChart</a>
 tags:
   - architecture, engineering, construction, future
