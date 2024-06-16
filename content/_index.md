@@ -127,7 +127,7 @@ sections:
               * Developing new features 
               * Fixing bugs 
               * Supporting the clients
-              * Used Technology: JAVA, Servlets and JSP, SQL Server 2005
+              * Used Technology: Java, Servlets and JSP, SQL Server 2005
         
     design:
       columns: '2'
