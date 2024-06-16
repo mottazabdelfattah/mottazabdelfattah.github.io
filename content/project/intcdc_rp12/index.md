@@ -1,5 +1,5 @@
 ---
-title: FiberVis Tool 
+title: Exploring the Design Space of Fiber Structures 
 summary: An interactive user interface for exploring the simulation results of coreless filament wound structures.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper, <a href="https://www.scichart.com/">SciChart</a>
 tags:
   - architecture, engineering, construction, future
@@ -39,7 +39,7 @@ In <cite><a href="/publication/abdelaal-2022-visualization">our work</a></cite>,
 
 <!-- In that context, I took part in a few projects focused on building and designing visualization tools for architects and designers.  -->
 
-In collaboration with experts from the architecture domain, we designed and built FiberVis, a tool for exploring the simulation results of coreless filament wound structures (CFW) at three levels of detail. Figure 1 shows some of the visualizations we implemented. While parallel coordinates plots and scatter plot matrices provide an overview of the solution space, small multiples representations together with the line- and column-chart enable the comparison between the candidate solutions. For more information please read the <cite><a href="/publication/abdelaal-2022-visualization">full article</a></cite>.
+In collaboration with experts from the architecture domain, we designed and built FiberVis, a tool for exploring the simulation results of coreless filament wound structures (CFW). Figure 1 shows some of the visualizations we implemented. Parallel coordinates plots and scatter plot matrices provide an overview of the solution space. Small multiples representations together with the line- and column-chart enable the comparison between the candidate solutions. For more information please read the <cite><a href="/publication/abdelaal-2022-visualization">full article</a></cite>.
 
 <!-- <figure>
   <img src="Tool_MultiSelection.PNG" style="width:100%"/>
