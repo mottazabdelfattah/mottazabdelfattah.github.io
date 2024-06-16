@@ -1,10 +1,10 @@
 ---
-title: Fitness Landscape Explorer 
+title: Visual Exploration of Co-author Networks
 summary: An interactive interface for exploring co-author networks within scientific communities.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} Java, <a href="http://vis.stanford.edu/papers/prefuse">prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a>
 
 tags:
   - visualization, graph, topic analysis, collaboration
-date: '2024-02-14T00:00:00Z'
+date: '2017-02-14T00:00:00Z'
 
 
 # Optional external URL for project (replaces project detail page).
