@@ -1,6 +1,6 @@
 ---
 title: Exploring the Design Space of Fiber Structures 
-summary: An interactive user interface for exploring the simulation results of coreless filament wound structures.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper 
+summary: An interactive user interface for exploring the simulation results of coreless filament wound structures.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper, <a href="https://www.scichart.com/">SciChart</a>
 tags:
   - architecture, engineering, construction, future
 date: '2024-02-14T00:00:00Z'
@@ -39,7 +39,7 @@ In <cite><a href="/publication/abdelaal-2022-visualization">our work</a></cite>,
 
 <!-- In that context, I took part in a few projects focused on building and designing visualization tools for architects and designers.  -->
 
-In collboration with experts from the achtiecture domain, we designed and build FiberVis, a tool for exploring the design space of Coreless Filament Wound Structures (CFW). For more information please read <cite><a href="/publication/abdelaal-2022-visualization">our paper</a></cite>.
+In collboration with experts from the architecture domain, we designed and build FiberVis, a tool for exploring the simulation results of coreless filament wound structures (CFW) at three levels of detail. Figure 1 shows some of the visualizations we implemented. While parallel coordinates plots and scatter plot matrices provide an overview of the solution space, small multiples representations together with the line- and column-chart enable the comparison between the candidate solutions. For more information please read the <cite><a href="/publication/abdelaal-2022-visualization">full article</a></cite>.
 
 <!-- <figure>
   <img src="Tool_MultiSelection.PNG" style="width:100%"/>
@@ -54,4 +54,4 @@ In collboration with experts from the achtiecture domain, we designed and build 
 
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: C#, .NET, WPF, Rhino/Grasshopper
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: C#, .NET, WPF, Rhino/Grasshopper, <a href="https://www.scichart.com/">SciChart</a>
