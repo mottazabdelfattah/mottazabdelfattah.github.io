@@ -1,6 +1,6 @@
 ---
 title: A Quantitative Evaluation of Network Visualizations
-summary: Evaluation of techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, HTML, JavaScript (vanilla), D3.js, jsPsych, PHP, MySQL
+summary: Evaluation of techniques for visualizing networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, HTML, JavaScript, D3.js, jsPsych, PHP, MySQL
 tags:
   - network, visualization, bipartite, evaluation, quantitative, user study 
 date: "2016-04-27T00:00:00Z"
@@ -104,7 +104,7 @@ If you're still interested in reading more or curious about what the results of 
 [^5]: M. Abdelaal, N. D. Schiele, K. Angerbauer, K. Kurzhals, M. Sedlmair, and D. Weiskopf. Supplemental materials for: Comparative evaluation of bipartite, node-link, and matrix-based network representations, 2022. doi: 10.18419/darus-3100
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, HTML, JavaScript (vanilla), D3.js, jsPsych, PHP, MySQL
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, HTML, JavaScript, D3.js, jsPsych, PHP, MySQL
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}
 Java{{< icon name="java" pack="fab" padding_right="2">}}
