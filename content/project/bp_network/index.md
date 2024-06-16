@@ -25,7 +25,7 @@ image:
     
 
 ---
-In this project, we undertook the task of answering the question: what is a bipartite layout good for?. Before we begin, we must distinguish between bipartite graphs and bipartite layouts. Bipartite graphs are a special kind of graph where the vertices are partitioned into two disjoint sets. These graphs are often found in biological and biochemical reaction networks. To visualize bipartite graphs, we use two parallel axes to denote the two sets of vertices and lines to visualize the connections between them. In this work, however, we are interested in the usage of bipartite layouts for visualizing single-mode graphs (i.e., one set of vertices). In this case, we still have the two parallel axes, but the vertices are replicated on both axes with the same order (see Figure 1).
+In this project, we undertook the task of answering the question: what is a bipartite layout good for? Before we begin, we must distinguish between bipartite graphs and bipartite layouts. Bipartite graphs are a special kind of graph where the vertices are partitioned into two disjoint sets. These graphs are often found in biological and biochemical reaction networks. To visualize bipartite graphs, we use two parallel axes to denote the two sets of vertices and lines to visualize the connections between them. In this work, however, we are interested in the usage of bipartite layouts for visualizing single-mode graphs (i.e., one set of vertices). In this case, we still have the two parallel axes, but the vertices are replicated on both axes with the same order (see Figure 1).
 
 
 <figure>

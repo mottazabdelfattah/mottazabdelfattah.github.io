@@ -67,7 +67,7 @@ However, such a method resulted  -->
   <figcaption>Figure 2: Interleaved BP vs. Stacked BP. Stacking BP proves to be beneficial in revealing the network's temporal patterns.</figcaption>
 </figure>
 
-In a later work, we introduced the <cite><a href="/publication/abdelaal-2020-time">Time-aligned Edge Plots</a></cite> as an alternative way of drawing the BP layout over time. Instead of redrawing the edges at each time point, we only draw them once, through time. In this way, we exploit the line stroke style (i.e., dashed, dotted, solid, etc.) to convey the temporal patterns in the network. Sometimes we refer to this method as "Striped BP" or "striping" for short. This method proves to be more scalable with respect to the network density (see Figure 3).
+In a subsequent work, we introduced the <cite><a href="/publication/abdelaal-2020-time">Time-aligned Edge Plots</a></cite> as an alternative way of drawing the BP layout over time. Instead of redrawing the edges at each time point, we only draw them once, through time. In this way, we exploit the line stroke style (i.e., dashed, dotted, solid, etc.) to convey the temporal patterns in the network. Sometimes we refer to this method as "Striped BP" or "striping" for short. This method proves to be more scalable with respect to the network density (see Figure 3).
 
 <figure>
   <img src="G5_MSV_cropped.png" style="width:33%; float:left"/>
