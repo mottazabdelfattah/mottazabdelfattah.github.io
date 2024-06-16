@@ -1,6 +1,7 @@
 ---
 title: Fitness Landscape Explorer 
-summary: An interactive interface for exploring co-author networks within scientific communities.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} Java, Prefuse, <a href="https://mimno.github.io/Mallet/index">Mallet</a>
+summary: An interactive interface for exploring co-author networks within scientific communities.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} Java, <a href="http://vis.stanford.edu/papers/prefuse">prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a>
+
 tags:
   - visualization, graph, topic analysis, collaboration
 date: '2024-02-14T00:00:00Z'
@@ -37,7 +38,7 @@ In this project, we designed and built ColTop, an interactive interface for expl
 
 
 <video width="320" height="240" controls>
-  <source src="FFsplit-171106-212029.mp4" type="video/mp4">
+  <source src="FFsplit-171106-193724.mp4" type="video/mp4">
 Your browser does not support the video tag.
 <caption>A teaser video</caption>
 </video>
@@ -55,4 +56,4 @@ Your browser does not support the video tag.
 
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: Java, Prefuse 
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: Java, <a href="http://vis.stanford.edu/papers/prefuse">prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a> 
