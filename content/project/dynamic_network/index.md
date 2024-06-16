@@ -1,6 +1,6 @@
 ---
 title: Visualization Techniques for Dynamic Networks 
-summary: Developing techniques for visualizing dynamic networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
+summary: Developing techniques for visualizing dynamic networks with a special focus on bipartite graph layout.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} R, Java, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
 tags:
   - network, visualization, bipartite, dynamic, time, scalability
 date: "2016-04-27T00:00:00Z"
@@ -96,7 +96,7 @@ We build an interactive user interface using Java-Servlets in the backend and HT
 ----
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, JAVA, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: R, Java, Servlets, HTML, JavaScript, D3.js, SVG, Canvas 
 
 <!-- HTML{{< icon name="code" pack="fas" padding_right="2">}}
 JS{{< icon name="js" pack="fab" padding_right="2">}}

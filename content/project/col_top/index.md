@@ -1,6 +1,6 @@
 ---
 title: Visual Exploration of Co-author Networks
-summary: An interactive interface for exploring co-author networks within scientific communities.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} Java, <a href="http://vis.stanford.edu/papers/prefuse">prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a>
+summary: An interactive interface for exploring co-author networks within scientific communities.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} Java, <a href="http://vis.stanford.edu/papers/prefuse">Prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a>
 
 tags:
   - visualization, graph, topic analysis, collaboration
@@ -56,4 +56,4 @@ Your browser does not support the video tag.
 
 
 
-Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: Java, <a href="http://vis.stanford.edu/papers/prefuse">prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a> 
+Used Tech {{< icon name="screwdriver-wrench" pack="fas" padding_right="2">}}: Java, <a href="http://vis.stanford.edu/papers/prefuse">Prefuse</a>, <a href="https://mimno.github.io/Mallet/index">Mallet</a> 
