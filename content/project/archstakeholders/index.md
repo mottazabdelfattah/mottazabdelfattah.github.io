@@ -1,6 +1,6 @@
 ---
 title: Timber Stakeholders Explorer 
-summary: An interactive web interface for exploring the stakeholders network of the timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3.js, leaflet, Javascript, HTML, CSS
+summary: An interactive web interface for exploring the stakeholders' network of the timber design and construction sector.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} D3.js, leaflet, Javascript, HTML, CSS
 tags:
   - architecture, engineering, construction, stakeholders, timber
 date: '2024-02-14T00:00:00Z'
@@ -9,7 +9,7 @@ date: '2024-02-14T00:00:00Z'
 external_link: ''
 
 image:
-  caption: '<figcaption>Figure 1: Projects Network. Projects are ring nodes. Flags are stakeholder headquarters locations. Colored dots are stakeholder type.</figcaption>'
+  caption: '<figcaption>Figure 1: Projects Network. Projects are represented as ring nodes. Flags indicate stakeholder headquarters locations. Colored dots represent stakeholder types.</figcaption>'
   focal_point: ""
   preview_only: false
 

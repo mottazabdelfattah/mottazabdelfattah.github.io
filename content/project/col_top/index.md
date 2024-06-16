@@ -11,7 +11,7 @@ date: '2017-02-14T00:00:00Z'
 external_link: ''
 
 image:
-  caption: '<figcaption>Figure 1: visual topic-based analysis of scientific community structure</figcaption>'
+  caption: '<figcaption>Figure 1: visual topic-based analysis of scientific community structure.</figcaption>'
   focal_point: ""
   preview_only: false
 
@@ -34,7 +34,7 @@ image:
 ---
 
 
-In this project, we designed and built ColTop, an interactive interface for exploring co-author networks within scientific communities on multiple levels of details. ColTop  combines co-author information with other meta-data and information extracted from textual content to support comprehensive analysis. We used ColTop to explore IEEE VIS publications datatset from 1990-2015. For mor details please read the <cite><a href="/publication/abdelaal-2017-coltop">full article</a></cite>.
+In this project, we designed and built ColTop, an interactive interface for exploring co-author networks within scientific communities on multiple levels of details. ColTop  combines co-author information with other metadata and information extracted from textual content to support comprehensive analysis. We used ColTop to explore IEEE VIS publications dataset from 1990-2015. For mor details please read the <cite><a href="/publication/abdelaal-2017-coltop">full article</a></cite>.
 
 
 <video width="320" height="240" controls>

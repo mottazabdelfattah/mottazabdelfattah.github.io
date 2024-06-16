@@ -1,6 +1,6 @@
 ---
 title: Fitness Landscape Explorer 
-summary: An interactive interface for exploring fitness landscapes in the context of archiecture design optimization.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper 
+summary: An interactive interface for exploring fitness landscapes in the context of architecture design optimization.<br/>{{< icon name="screwdriver-wrench" pack="fas" >}} C#, .NET, WPF, Rhino/Grasshopper 
 tags:
   - architecture, design, optimization, glyph
 date: '2024-02-14T00:00:00Z'
