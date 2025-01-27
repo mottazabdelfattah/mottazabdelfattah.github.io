@@ -37,7 +37,7 @@ links:
 - name: "Interactive Stakeholders Map"
   url: "https://archstakeholders.github.io/"
 url_pdf: https://pdfs.semanticscholar.org/81ed/9506eb5c845f586361a1265ed6afdd4b061b.pdf
-#url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: 'https://github.com/mottazabdelfattah/archstakeholders.github.io'
 url_dataset: 'https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2740'
 url_poster: ''
 url_project: ''

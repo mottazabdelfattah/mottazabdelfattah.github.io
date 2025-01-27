@@ -28,12 +28,12 @@ links:
 - name: "Web Prototype"
   url: "https://dy-graph-vis.vercel.app/"
 url_pdf: https://journals.sagepub.com/doi/pdf/10.1177/14738716241265111
-#url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: 'https://github.com/mottazabdelfattah/dy-graph-vis'
 url_dataset: 'https://doi.org/10.18419/DARUS-4198'
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/mottazabdelfattah/dy-graph-vis'
+#url_source: ''
 # url_video: 'ice_video_20181008-210906.mp4'
 
 
