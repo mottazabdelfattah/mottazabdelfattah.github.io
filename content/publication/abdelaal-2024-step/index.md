@@ -7,8 +7,8 @@ authors:
 - M Hlawatsch
 - A Menges
 - D Weiskopf
-date: '2025-01-27'
-publishDate: '2024-10-07T10:57:04.464623Z'
+date: '2024-10-01'
+publishDate: '2025-01-27T10:57:04.464623Z'
 publication_types:
 - article-journal
 publication: '*Information Visualization*'
