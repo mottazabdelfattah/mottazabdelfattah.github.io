@@ -85,11 +85,12 @@ In a subsequent work, we introduced the <cite><a href="/publication/abdelaal-202
 
 
 
-We built an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, and D3.js in the frontend. A demo video can be found here:
+<!-- We built an interactive user interface using Java-Servlets in the backend and HTML, JavaScript, and D3.js in the frontend. A demo video can be found here: -->
+We built <a href="https://dy-graph-vis.vercel.app/">an interactive user interface</a> using Angular framework and Node.js. The source code can be found <a href="https://github.com/mottazabdelfattah/dy-graph-vis">here</a>.
 
-<video width="320" height="240" controls>
+<!-- <video width="320" height="240" controls>
   <source src="TEP_video_annotated.mp4" type="video/mp4">
-</video>
+</video> -->
 
 
 
