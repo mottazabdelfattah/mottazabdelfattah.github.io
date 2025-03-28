@@ -19,12 +19,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research Scientist (He/Him)
+role: Data Visualization Specialist (He/Him)
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: Visualization Research Center (VISUS)
-    url: https://www.visus.uni-stuttgart.de/
+# organizations:
+  # - name: Visualization Research Center (VISUS)
+    # url: https://www.visus.uni-stuttgart.de/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include network visualization, Visual Analytics, and Human-Computer Interaction.
@@ -142,7 +142,7 @@ social:
 highlight_name: true
 ---
 
-Welcome to my website! My name is Moataz. I am a research scientist at the Visualization Research Center (VISUS) at the University of Stuttgart, Germany. Currently, I am working towards my PhD degree in data visualization. My research interests include designing scalable techniques for visualizing dynamic networks and building tools to help architects in shaping our future built world. During my PhD, I built various visualization prototypes using various technology stacks, including D3.js-JavaScript, C#-WPF, Java-Servlets, and, more recently, TypeScript-Angular. In the past, I have worked professionally as a Java and .NET developer. When I'm not working, I enjoy traveling, hiking, watching movies, playing sports, or catching up on some sleep :) Here, you will find some information about me and my little research projects. I will try to keep things up to date!
+Welcome to my website! My name is Moataz. Currently, I am working towards my PhD degree in data visualization. My research interests include designing scalable techniques for visualizing dynamic networks and building tools to help architects in shaping our future built world. During my PhD, I built various visualization prototypes using various technology stacks, including D3.js-JavaScript, C#-WPF, Java-Servlets, and, more recently, TypeScript-Angular. In the past, I have worked professionally as a Java and .NET developer. When I'm not working, I enjoy traveling, hiking, watching movies, playing sports, or catching up on some sleep :) Here, you will find some information about me and my little research projects. I will try to keep things up to date!
 
 
 {style="text-align: justify;"}
