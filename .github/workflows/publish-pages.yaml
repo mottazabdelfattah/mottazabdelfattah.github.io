@@ -72,6 +72,11 @@ jobs:
       - name: Check public folder size
         run: du -sh ./public
 
+      - name: Upload Pages artifact (excluding large videos)
+        run: |
+          mkdir public-deploy
+          rsync -av --exclude='*.mp4' ./public/ ./public-deploy/
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
