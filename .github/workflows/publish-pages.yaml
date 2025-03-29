@@ -62,7 +62,12 @@ jobs:
         run: |
           echo "Checking for symbolic links..."
           find ./public -type l
-      
+      # List ALL files in ./public
+      - name: List all files in ./public
+        run: |
+          echo "Full file listing:"
+          find ./public -type f -exec ls -lh {} +
+
       # 🔄 Check final size of public folder
       - name: Check public folder size
         run: du -sh ./public
