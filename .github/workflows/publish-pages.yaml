@@ -60,6 +60,10 @@ jobs:
       #   uses: actions/upload-pages-artifact@v2.0.0
       #   with:
       #     path: ./public
+      - name: Check for symlinks in public
+        run: |
+          echo "Checking for symbolic links..."
+          find ./public -type l
 
   # Deploy website to GitHub Pages hosting
   deploy:
