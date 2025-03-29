@@ -51,12 +51,11 @@ jobs:
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      # - name: Preload upload-artifact to fix missing info bug
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: dummy
-      #     path: ./nonexistent
-      #     continue-on-error: true
+      - name: Upload artifact manually
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ./public
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v2.0.0
       #   with:
