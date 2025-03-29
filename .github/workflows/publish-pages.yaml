@@ -45,12 +45,28 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+
+      # 🔄 New: Clean public folder before build
+      - name: Clean public folder
+        run: rm -rf ./public
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      
+      # 🔄 Check for symlinks
+      - name: Check for symlinks in public
+        run: |
+          echo "Checking for symbolic links..."
+          find ./public -type l
+      
+      # 🔄 Check final size of public folder
+      - name: Check public folder size
+        run: du -sh ./public
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -60,10 +76,7 @@ jobs:
       #   uses: actions/upload-pages-artifact@v2.0.0
       #   with:
       #     path: ./public
-      - name: Check for symlinks in public
-        run: |
-          echo "Checking for symbolic links..."
-          find ./public -type l
+      
 
   # Deploy website to GitHub Pages hosting
   deploy:
