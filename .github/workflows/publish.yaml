@@ -52,7 +52,7 @@ jobs:
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@3a3d5aa31db6b8c3d18b1a614ac5a91821f6f9f5
         with:
           name: github-pages
           path: ./public
